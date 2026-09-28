@@ -1,0 +1,268 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  
+  --color-app-bg: #F5F7FB;
+  --color-card-bg: #FFFFFF;
+  --color-card-border: #E6EAF2;
+  
+  --color-navy-sidebar: #0B1B3A;
+  --color-primary-teal: #0F5257;
+  --color-primary-teal-hover: #13656B;
+  --color-primary-blue: #2563EB;
+  --color-primary-blue-hover: #1D4ED8;
+  
+  --color-text-main: #0F172A;
+  --color-text-muted: #64748B;
+  --color-text-label: #94A3B8;
+
+  --color-pill-green-bg: #DCFCE7;
+  --color-pill-green-text: #15803D;
+  --color-pill-blue-bg: #E0EDFF;
+  --color-pill-blue-text: #1D4ED8;
+  --color-pill-amber-bg: #FEF3C7;
+  --color-pill-amber-text: #B45309;
+  --color-pill-red-bg: #FEE2E2;
+  --color-pill-red-text: #B91C1C;
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: var(--font-sans);
+    background-color: #F5F7FB;
+    color: #0F172A;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* Reference Card Styling (Clean, Light, Flat) */
+.navtrac-card {
+  background-color: #FFFFFF;
+  border: 1px solid #E6EAF2;
+  border-radius: 12px;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.05);
+}
+
+.navtrac-card-header {
+  border-bottom: 1px solid #E6EAF2;
+  padding: 14px 18px;
+}
+
+.navtrac-input {
+  background-color: #FFFFFF;
+  border: 1px solid #CBD5E1;
+  border-radius: 8px;
+  color: #0F172A;
+  font-size: 13px;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.navtrac-input:focus {
+  outline: none;
+  border-color: #2563EB;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.12);
+}
+
+/* Buttons */
+.btn-dark-teal {
+  background-color: #0F5257;
+  color: #FFFFFF;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 13px;
+  transition: background-color 0.15s ease;
+}
+
+.btn-dark-teal:hover {
+  background-color: #13656B;
+}
+
+.btn-blue {
+  background-color: #2563EB;
+  color: #FFFFFF;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 13px;
+  transition: background-color 0.15s ease;
+}
+
+.btn-blue:hover {
+  background-color: #1D4ED8;
+}
+
+/* Status Pills */
+.pill-green {
+  background-color: #DCFCE7;
+  color: #15803D;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 9999px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.pill-blue {
+  background-color: #E0EDFF;
+  color: #1D4ED8;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 9999px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.pill-amber {
+  background-color: #FEF3C7;
+  color: #B45309;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 9999px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.pill-red {
+  background-color: #FEE2E2;
+  color: #B91C1C;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 9999px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.pill-gray {
+  background-color: #F1F5F9;
+  color: #475569;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 9999px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* Custom Clean Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* React Flow Canvas Clean Customization */
+.react-flow__pane {
+  background-color: #FAFCFF !important;
+}
+
+.react-flow__edge-path {
+  stroke: #94A3B8;
+  stroke-width: 1.5;
+}
+
+.react-flow__edge-text {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  fill: #475569;
+}
+
+.react-flow__controls {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08) !important;
+  border-radius: 8px !important;
+  border: 1px solid #E2E8F0 !important;
+  overflow: hidden;
+}
+
+.react-flow__controls-button {
+  background-color: #FFFFFF !important;
+  border-bottom: 1px solid #E2E8F0 !important;
+  color: #475569 !important;
+}
+
+.react-flow__controls-button:hover {
+  background-color: #F8FAFC !important;
+  color: #0F172A !important;
+}
+
+
+/* ─── Leaflet Tactical Map Styling ───────────────────────────────────────── */
+.leaflet-container {
+  background-color: #0d2137 !important;
+  font-family: var(--font-sans) !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.leaflet-bar {
+  display: none !important; /* We use custom zoom controls */
+}
+
+/* Vessel name tooltips */
+.leaflet-tooltip {
+  padding: 2px 7px !important;
+  font-size: 10px !important;
+  font-weight: 700 !important;
+  border-radius: 5px !important;
+  white-space: nowrap !important;
+  pointer-events: none !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.35) !important;
+}
+.leaflet-tooltip::before { display: none !important; }
+
+/* Vessel popup */
+.leaflet-popup-content-wrapper {
+  border-radius: 12px !important;
+  border: 1px solid #E2E8F0 !important;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18) !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+}
+.leaflet-popup-content {
+  margin: 12px 14px !important;
+  font-size: 12px !important;
+  line-height: 1.5 !important;
+  min-width: 260px !important;
+}
+.leaflet-popup-tip-container { display: none !important; }
+.leaflet-popup-close-button {
+  top: 6px !important;
+  right: 8px !important;
+  color: #94A3B8 !important;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+}
+.leaflet-popup-close-button:hover { color: #0F172A !important; }
+
+/* Hide attribution for clean look */
+.leaflet-control-attribution { display: none !important; }
+
+/* Animated ping keyframe for vessel pulse rings */
+@keyframes leaflet-ping {
+  0%   { transform: scale(1);   opacity: 0.8; }
+  75%  { transform: scale(1.8); opacity: 0.2; }
+  100% { transform: scale(2);   opacity: 0;   }
+}

@@ -1,0 +1,2839 @@
+{
+  "isLedgerTampered": false,
+  "tamperedBlockNumber": 4188,
+  "users": [
+    {
+      "id": "USR-01",
+      "name": "Lt. Cdr. S. Rao",
+      "email": "s.rao@navy.mil.in",
+      "rank": "Lt. Commander",
+      "role": "investigator",
+      "unit": "Western Command (Cyber Warfare)",
+      "clearanceLevel": "Level 4 (Top Secret)",
+      "createdAt": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "USR-02",
+      "name": "Lt. Priya Singh",
+      "email": "lt.priya.singh@navy.mil.in",
+      "rank": "Lieutenant",
+      "role": "normal_user",
+      "unit": "INS Visakhapatnam (D66)",
+      "clearanceLevel": "Level 3 (Secret)",
+      "createdAt": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "USR-03",
+      "name": "Cdr. Arjun Mehta",
+      "email": "a.mehta@navy.mil.in",
+      "rank": "Commander",
+      "role": "recipient",
+      "unit": "INS Vikramaditya (R33)",
+      "clearanceLevel": "Level 4 (Top Secret Codeword)",
+      "createdAt": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "USR-04",
+      "name": "Capt. R. Deshmukh",
+      "email": "r.deshmukh@navy.mil.in",
+      "rank": "Captain",
+      "role": "investigator",
+      "unit": "Western Fleet HQ",
+      "clearanceLevel": "Level 4 (Top Secret Codeword)",
+      "createdAt": "2026-09-01T08:00:00Z"
+    }
+  ],
+  "documents": [
+    {
+      "id": "NAV-DOC-2026-0050",
+      "name": "Operational_Maritime_Brief_Test.pdf",
+      "masterDocId": "DOC-76555",
+      "version": "v1.0",
+      "classification": "TOP SECRET (CODEWORD)",
+      "documentType": "Tactical Operation",
+      "sizeBytes": 5242880,
+      "status": "Draft",
+      "sha3Hash": "dac370cf18fb38952dc48553a8fbe5415190c22791fcb74e7579acb2ce66ad3a",
+      "recipientCount": 0,
+      "createdAt": "2026-09-28T11:31:16.555Z",
+      "updatedAt": "2026-09-28T11:31:16.555Z",
+      "metadataSanitized": true,
+      "watermarkCoveragePct": 98,
+      "tags": [
+        "Western Fleet",
+        "Classified"
+      ],
+      "securityCaveats": "Dual-Custody HSM Required • Dynamic Provenance Capsule Active",
+      "author": "Lt. Cdr. S. Rao"
+    },
+    {
+      "id": "NAV-DOC-2026-0049",
+      "name": "Operational_Maritime_Brief_Test.pdf",
+      "masterDocId": "DOC-25197",
+      "version": "v1.0",
+      "classification": "TOP SECRET (CODEWORD)",
+      "documentType": "Tactical Operation",
+      "sizeBytes": 5242880,
+      "status": "Draft",
+      "sha3Hash": "a889a7dde9db10d4b8849e5c03e9a82af2f109c30d6f780db612ed6b5f8a72af",
+      "recipientCount": 0,
+      "createdAt": "2026-09-28T11:20:25.197Z",
+      "updatedAt": "2026-09-28T11:20:25.197Z",
+      "metadataSanitized": true,
+      "watermarkCoveragePct": 98,
+      "tags": [
+        "Western Fleet",
+        "Classified"
+      ],
+      "securityCaveats": "Dual-Custody HSM Required • Dynamic Provenance Capsule Active",
+      "author": "Lt. Cdr. S. Rao"
+    },
+    {
+      "id": "NAV-DOC-2026-0042",
+      "name": "Mission_Plan_Bravo.pdf",
+      "masterDocId": "DOC-88219-BRAVO",
+      "version": "v2.1",
+      "classification": "TOP SECRET (CODEWORD)",
+      "documentType": "Tactical Operation",
+      "sizeBytes": 14680064,
+      "status": "Distributed",
+      "sha3Hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "recipientCount": 14,
+      "createdAt": "25 Sep 2026 09:30Z",
+      "updatedAt": "27 Sep 2026 04:54Z",
+      "metadataSanitized": true,
+      "watermarkCoveragePct": 98.4,
+      "tags": [
+        "Western Fleet",
+        "Combat Readiness",
+        "INS Vikramaditya"
+      ],
+      "securityCaveats": "Dual-Custody HSM Required • Dynamic Provenance Capsule Active"
+    },
+    {
+      "id": "NAV-DOC-2026-0038",
+      "name": "Eastern_Littoral_Hydrographic_Intel.pdf",
+      "masterDocId": "DOC-77142-HYDRO",
+      "version": "v1.4",
+      "classification": "SECRET",
+      "documentType": "Hydrographic Chart",
+      "sizeBytes": 28416000,
+      "status": "Distributed",
+      "sha3Hash": "f4b1a88390fc1d234aebf4c8996eb92427ae41e4649c884ca495991b7852c991",
+      "recipientCount": 22,
+      "createdAt": "22 Sep 2026 14:15Z",
+      "updatedAt": "26 Sep 2026 18:03Z",
+      "metadataSanitized": true,
+      "watermarkCoveragePct": 95,
+      "tags": [
+        "Eastern Naval Command",
+        "Bathymetry",
+        "Bay of Bengal"
+      ],
+      "securityCaveats": "Encrypted Air-Gap Cache Only"
+    },
+    {
+      "id": "NAV-DOC-2026-0055",
+      "name": "Submarine_Acoustic_Signature_Profile.pdf",
+      "masterDocId": "DOC-99012-ACOUSTIC",
+      "version": "v3.0",
+      "classification": "TOP SECRET",
+      "documentType": "Technical Report",
+      "sizeBytes": 8912896,
+      "status": "Distributed",
+      "sha3Hash": "a1b2c3d4e5f60718293a4b5c6d7e8f90123456789abcdef0123456789abcdef0",
+      "recipientCount": 8,
+      "createdAt": "20 Sep 2026 11:00Z",
+      "updatedAt": "26 Sep 2026 21:40Z",
+      "metadataSanitized": false,
+      "watermarkCoveragePct": 92.5,
+      "tags": [
+        "Submarine Flotilla",
+        "Sonar",
+        "Acoustics"
+      ],
+      "securityCaveats": "Zero-Export • Memory Execution Only"
+    },
+    {
+      "id": "NAV-DOC-2026-0029",
+      "name": "Tactical_Satcom_Frequency_Allocation.docx",
+      "masterDocId": "DOC-44810-SATCOM",
+      "version": "v1.0",
+      "classification": "SECRET",
+      "documentType": "Frequency Plan",
+      "sizeBytes": 4194304,
+      "status": "Distributed",
+      "sha3Hash": "b2c3d4e5f60718293a4b5c6d7e8f90123456789abcdef0123456789abcdef01",
+      "recipientCount": 18,
+      "createdAt": "18 Sep 2026 08:45Z",
+      "updatedAt": "26 Sep 2026 17:45Z",
+      "metadataSanitized": true,
+      "watermarkCoveragePct": 100,
+      "tags": [
+        "Communications",
+        "SATCOM",
+        "EHF"
+      ],
+      "securityCaveats": "EMCON State Aware"
+    },
+    {
+      "id": "NAV-DOC-2026-0061",
+      "name": "Carrier_Air_Wing_Sortie_Schedule.pptx",
+      "masterDocId": "DOC-55190-AIRWING",
+      "version": "v2.0",
+      "classification": "SECRET",
+      "documentType": "Aviation Schedule",
+      "sizeBytes": 6291456,
+      "status": "Distributed",
+      "sha3Hash": "c3d4e5f60718293a4b5c6d7e8f90123456789abcdef0123456789abcdef012",
+      "recipientCount": 12,
+      "createdAt": "24 Sep 2026 16:20Z",
+      "updatedAt": "26 Sep 2026 22:10Z",
+      "metadataSanitized": true,
+      "watermarkCoveragePct": 96.8,
+      "tags": [
+        "MiG-29K",
+        "Carrier Strike Group",
+        "Sortie"
+      ],
+      "securityCaveats": "12-Hour Ephemeral Session"
+    },
+    {
+      "id": "NAV-DOC-2026-0070",
+      "name": "Draft_Coastal_Surveillance_Radar_SOP.docx",
+      "masterDocId": "DOC-11092-COASTAL",
+      "version": "v0.9",
+      "classification": "CONFIDENTIAL",
+      "documentType": "Standard Operating Procedure",
+      "sizeBytes": 3145728,
+      "status": "Draft",
+      "sha3Hash": "d4e5f60718293a4b5c6d7e8f90123456789abcdef0123456789abcdef0123",
+      "recipientCount": 4,
+      "createdAt": "26 Sep 2026 10:00Z",
+      "updatedAt": "26 Sep 2026 12:20Z",
+      "metadataSanitized": true,
+      "watermarkCoveragePct": 99.1,
+      "tags": [
+        "Coast Guard",
+        "Radar",
+        "SOP"
+      ],
+      "securityCaveats": "Standard Clearance"
+    }
+  ],
+  "document_versions": [
+    {
+      "documentId": "NAV-DOC-2026-0050",
+      "version": "v1.0",
+      "fileHash": "SHA256: dac370cf18fb38952dc48553a8fbe5415190c22791fcb74e7579acb2ce66ad3a",
+      "author": "Lt. Cdr. S. Rao",
+      "changeNotes": "Initial document ingest and cryptographic sealing",
+      "releasedAt": "2026-09-28T11:31:16.555Z",
+      "isLeakedMatch": false,
+      "linkedDecryptionEvents": []
+    },
+    {
+      "documentId": "NAV-DOC-2026-0049",
+      "version": "v1.0",
+      "fileHash": "SHA256: a889a7dde9db10d4b8849e5c03e9a82af2f109c30d6f780db612ed6b5f8a72af",
+      "author": "Lt. Cdr. S. Rao",
+      "changeNotes": "Initial document ingest and cryptographic sealing",
+      "releasedAt": "2026-09-28T11:20:25.197Z",
+      "isLeakedMatch": false,
+      "linkedDecryptionEvents": []
+    },
+    {
+      "documentId": "NAV-DOC-2026-0042",
+      "version": "v2.1",
+      "fileHash": "SHA256: 88f2:1ac0:981b:aacc:3321:ff88:9012:39aa",
+      "author": "Capt. R. Deshmukh (03912-P)",
+      "changeNotes": "Updated strike package vector Alpha-7 and revised fuel reserve calculations.",
+      "releasedAt": "26 Sep 2026 20:14 IST",
+      "isLeakedMatch": true,
+      "linkedDecryptionEvents": [
+        {
+          "eventId": "EVT-88421",
+          "recipientName": "Cdr. Arjun Mehta (04821-K)",
+          "decryptedAt": "27 Sep 2026 04:54Z",
+          "matchedLeakArtifact": true
+        },
+        {
+          "eventId": "EVT-88420",
+          "recipientName": "Capt. R. Deshmukh (03912-P)",
+          "decryptedAt": "27 Sep 2026 04:51Z",
+          "matchedLeakArtifact": false
+        },
+        {
+          "eventId": "EVT-88416",
+          "recipientName": "Directorate of Naval Operations",
+          "decryptedAt": "26 Sep 2026 21:55Z",
+          "matchedLeakArtifact": false
+        }
+      ]
+    },
+    {
+      "documentId": "NAV-DOC-2026-0042",
+      "version": "v2.0",
+      "fileHash": "SHA256: 32ba:1198:c001:92ea:7732:b891:0ac2:2199",
+      "author": "Cdr. Arjun Mehta (04821-K)",
+      "changeNotes": "Integrated carrier strike group escort positioning and updated callsigns.",
+      "releasedAt": "25 Sep 2026 14:30 IST",
+      "isLeakedMatch": false,
+      "linkedDecryptionEvents": [
+        {
+          "eventId": "EVT-88412",
+          "recipientName": "Flag Officer Commanding Western Fleet",
+          "decryptedAt": "26 Sep 2026 12:45Z",
+          "matchedLeakArtifact": false
+        }
+      ]
+    },
+    {
+      "documentId": "NAV-DOC-2026-0042",
+      "version": "v1.0",
+      "fileHash": "SHA256: ee11:0098:44bb:9910:aa11:2349:bc98:1244",
+      "author": "Directorate of Naval Operations",
+      "changeNotes": "Initial operational draft for Western Fleet exercise simulation.",
+      "releasedAt": "24 Sep 2026 09:00 IST",
+      "isLeakedMatch": false,
+      "linkedDecryptionEvents": [
+        {
+          "eventId": "EVT-88410",
+          "recipientName": "Cdr. Arjun Mehta (04821-K)",
+          "decryptedAt": "26 Sep 2026 08:30Z",
+          "matchedLeakArtifact": false
+        }
+      ]
+    }
+  ],
+  "document_recipients": [
+    {
+      "documentId": "NAV-DOC-2026-0050",
+      "id": "REC-01",
+      "recipientName": "Cdr. Arjun Mehta",
+      "rank": "Commander",
+      "pno": "04821-K",
+      "unitVessel": "INS Vikramaditya (R33)",
+      "accessType": "View Only",
+      "deviceId": "HW-HSM-9021",
+      "status": "Decrypted",
+      "decryptedAt": "2026-09-28T11:31:16.581Z"
+    },
+    {
+      "documentId": "NAV-DOC-2026-0049",
+      "id": "REC-01",
+      "recipientName": "Cdr. Arjun Mehta",
+      "rank": "Commander",
+      "pno": "04821-K",
+      "unitVessel": "INS Vikramaditya (R33)",
+      "accessType": "View Only",
+      "deviceId": "HW-HSM-9021",
+      "status": "Decrypted",
+      "decryptedAt": "2026-09-28T11:20:25.345Z"
+    },
+    {
+      "documentId": "NAV-DOC-2026-0042",
+      "id": "REC-01",
+      "recipientName": "Cdr. Arjun Mehta",
+      "rank": "Commander",
+      "pno": "04821-K",
+      "unitVessel": "INS Vikramaditya (R33)",
+      "accessType": "View Only",
+      "deviceId": "HW-HSM-9021",
+      "status": "Decrypted",
+      "decryptedAt": "27 Sep 2026 04:54Z"
+    },
+    {
+      "documentId": "NAV-DOC-2026-0042",
+      "id": "REC-02",
+      "recipientName": "Capt. R. Deshmukh",
+      "rank": "Captain",
+      "pno": "03912-P",
+      "unitVessel": "Western Fleet HQ",
+      "accessType": "Full Access",
+      "deviceId": "NAV-HQ-WNC-01",
+      "status": "Decrypted",
+      "decryptedAt": "27 Sep 2026 04:51Z"
+    },
+    {
+      "documentId": "NAV-DOC-2026-0042",
+      "id": "REC-03",
+      "recipientName": "Lt. Cdr. Sunita Rao",
+      "rank": "Lt. Commander",
+      "pno": "05190-M",
+      "unitVessel": "INS Vikrant (R11)",
+      "accessType": "View Only",
+      "deviceId": "HW-HSM-8812",
+      "status": "Pending",
+      "decryptedAt": null
+    }
+  ],
+  "recipients": [
+    {
+      "id": "REC-01",
+      "name": "Cdr. Arjun Mehta",
+      "rank": "Commander",
+      "pno": "04821-K",
+      "unit": "INS Vikramaditya (R33)",
+      "email": "a.mehta@navy.mil.in",
+      "clearanceLevel": "Level 4 (Top Secret Codeword)",
+      "activeKeys": 4,
+      "documentsReceived": 20,
+      "lastActive": "12 mins ago",
+      "status": "Active",
+      "hardwareDeviceId": "HW-HSM-9021",
+      "pkiCertificateFingerprint": "SHA256: 89AF:42E1:90C2:33DA"
+    },
+    {
+      "id": "REC-02",
+      "name": "Capt. R. Deshmukh",
+      "rank": "Captain",
+      "pno": "03912-P",
+      "unit": "Western Fleet HQ",
+      "email": "r.deshmukh@navy.mil.in",
+      "clearanceLevel": "Level 4 (Top Secret Codeword)",
+      "activeKeys": 6,
+      "documentsReceived": 32,
+      "lastActive": "30 mins ago",
+      "status": "Active",
+      "hardwareDeviceId": "NAV-HQ-WNC-01",
+      "pkiCertificateFingerprint": "SHA256: 44BA:8819:11AC:44EF"
+    },
+    {
+      "id": "REC-03",
+      "name": "Lt. Cdr. Sunita Rao",
+      "rank": "Lt. Commander",
+      "pno": "05190-M",
+      "unit": "INS Vikrant (R11)",
+      "email": "s.rao@navy.mil.in",
+      "clearanceLevel": "Level 3 (Secret)",
+      "activeKeys": 2,
+      "documentsReceived": 11,
+      "lastActive": "1 hour ago",
+      "status": "Active",
+      "hardwareDeviceId": "HW-HSM-8812",
+      "pkiCertificateFingerprint": "SHA256: 12FE:9981:AA34:7700"
+    },
+    {
+      "id": "REC-04",
+      "name": "Commodore S. V. Nair",
+      "rank": "Commodore",
+      "pno": "02811-A",
+      "unit": "Naval Headquarters Delhi",
+      "email": "sv.nair@navy.mil.in",
+      "clearanceLevel": "Level 4 (Top Secret Codeword)",
+      "activeKeys": 8,
+      "documentsReceived": 45,
+      "lastActive": "5 mins ago",
+      "status": "Active",
+      "hardwareDeviceId": "NHQ-SEC-NODE-01",
+      "pkiCertificateFingerprint": "SHA256: 9911:44AA:77CC:8899"
+    },
+    {
+      "id": "REC-05",
+      "name": "Lt. Priya Singh",
+      "rank": "Lieutenant",
+      "pno": "06244-S",
+      "unit": "INS Visakhapatnam (D66)",
+      "email": "lt.priya.singh@navy.mil.in",
+      "clearanceLevel": "Level 3 (Secret)",
+      "activeKeys": 2,
+      "documentsReceived": 14,
+      "lastActive": "Just now",
+      "status": "Active",
+      "hardwareDeviceId": "HW-HSM-6244",
+      "pkiCertificateFingerprint": "SHA256: CC88:1199:33AA:BB55"
+    },
+    {
+      "id": "REC-06",
+      "name": "Cdr. Devendra Malik",
+      "rank": "Commander",
+      "pno": "04118-W",
+      "unit": "INS Mormugao (D67)",
+      "email": "d.malik@navy.mil.in",
+      "clearanceLevel": "Level 4 (Top Secret)",
+      "activeKeys": 3,
+      "documentsReceived": 9,
+      "lastActive": "45 mins ago",
+      "status": "Active",
+      "hardwareDeviceId": "HW-HSM-4118",
+      "pkiCertificateFingerprint": "SHA256: 7711:AA22:EE55:66CC"
+    },
+    {
+      "id": "REC-07",
+      "name": "Lt. Amit Saxena",
+      "rank": "Lieutenant",
+      "pno": "06812-B",
+      "unit": "Western Fleet HQ",
+      "email": "a.saxena@navy.mil.in",
+      "clearanceLevel": "Level 3 (Secret)",
+      "activeKeys": 2,
+      "documentsReceived": 16,
+      "lastActive": "2 hours ago",
+      "status": "Active",
+      "hardwareDeviceId": "WNC-TERM-068",
+      "pkiCertificateFingerprint": "SHA256: 3344:5566:7788:9900"
+    },
+    {
+      "id": "REC-08",
+      "name": "Sub-Lt. Ananya Verma",
+      "rank": "Sub-Lieutenant",
+      "pno": "07119-V",
+      "unit": "Naval Cyber Defense Centre",
+      "email": "a.verma@navy.mil.in",
+      "clearanceLevel": "Level 2 (Restricted)",
+      "activeKeys": 1,
+      "documentsReceived": 5,
+      "lastActive": "3 hours ago",
+      "status": "Active",
+      "hardwareDeviceId": "NCDC-SEC-441",
+      "pkiCertificateFingerprint": "SHA256: FF11:2233:4455:6677"
+    }
+  ],
+  "recipient_keys": [
+    {
+      "id": "KEY-01",
+      "recipientId": "REC-01",
+      "algorithm": "ML-DSA-65 (NIST FIPS 204)",
+      "publicKeyFingerprint": "SHA256: 89AF:42E1:90C2:33DA",
+      "status": "Active",
+      "issuedAt": "2026-09-01T00:00:00Z",
+      "expiresAt": "2027-09-01T00:00:00Z"
+    },
+    {
+      "id": "KEY-02",
+      "recipientId": "REC-05",
+      "algorithm": "ML-DSA-65 (NIST FIPS 204)",
+      "publicKeyFingerprint": "SHA256: CC88:1199:33AA:BB55",
+      "status": "Active",
+      "issuedAt": "2026-09-01T00:00:00Z",
+      "expiresAt": "2027-09-01T00:00:00Z"
+    }
+  ],
+  "distributions": [
+    {
+      "id": "DST-1A0E7C891E5-2026",
+      "documentId": "NAV-DOC-2026-0050",
+      "documentName": "Operational_Maritime_Brief_Test.pdf",
+      "version": "v1.0",
+      "recipients": [
+        "REC-01"
+      ],
+      "recipientCount": 1,
+      "classification": "TOP SECRET (CODEWORD)",
+      "encryptionAlgorithm": "ML-KEM-768 + AES-256-GCM",
+      "status": "Delivered",
+      "distributedBy": "Lt. Cdr. S. Rao",
+      "distributedAt": "2026-09-28T11:31:16.581Z",
+      "ledgerEventId": "EVT-76581",
+      "watermarkApplied": true,
+      "capsulePrepared": true
+    },
+    {
+      "id": "DST-1A0E7BEA201-2026",
+      "documentId": "NAV-DOC-2026-0049",
+      "documentName": "Operational_Maritime_Brief_Test.pdf",
+      "version": "v1.0",
+      "recipients": [
+        "REC-01"
+      ],
+      "recipientCount": 1,
+      "classification": "TOP SECRET (CODEWORD)",
+      "encryptionAlgorithm": "ML-KEM-768 + AES-256-GCM",
+      "status": "Delivered",
+      "distributedBy": "Lt. Cdr. S. Rao",
+      "distributedAt": "2026-09-28T11:20:25.345Z",
+      "ledgerEventId": "EVT-25345",
+      "watermarkApplied": true,
+      "capsulePrepared": true
+    },
+    {
+      "id": "DST-8F921-2026",
+      "documentId": "NAV-DOC-2026-0042",
+      "documentName": "Mission_Plan_Bravo.pdf",
+      "version": "v2.1",
+      "recipients": [
+        "REC-01",
+        "REC-02",
+        "REC-03"
+      ],
+      "recipientCount": 3,
+      "classification": "TOP SECRET (CODEWORD)",
+      "encryptionAlgorithm": "ML-KEM-768 + AES-256-GCM",
+      "status": "Delivered",
+      "distributedBy": "Lt. Cdr. S. Rao",
+      "distributedAt": "2026-09-25T09:30:00Z",
+      "ledgerEventId": "EVT-88401",
+      "watermarkApplied": true,
+      "capsulePrepared": true
+    },
+    {
+      "id": "DST-7E110-2026",
+      "documentId": "NAV-DOC-2026-0038",
+      "documentName": "Eastern_Littoral_Hydrographic_Intel.pdf",
+      "version": "v1.4",
+      "recipients": [
+        "REC-04",
+        "REC-07"
+      ],
+      "recipientCount": 2,
+      "classification": "SECRET",
+      "encryptionAlgorithm": "ML-KEM-768 + AES-256-GCM",
+      "status": "Delivered",
+      "distributedBy": "Capt. R. Deshmukh",
+      "distributedAt": "2026-09-22T14:15:00Z",
+      "ledgerEventId": "EVT-88402",
+      "watermarkApplied": true,
+      "capsulePrepared": true
+    },
+    {
+      "id": "DST-99120-2026",
+      "documentId": "NAV-DOC-2026-0055",
+      "documentName": "Submarine_Acoustic_Signature_Profile.pdf",
+      "version": "v3.0",
+      "recipients": [
+        "REC-06"
+      ],
+      "recipientCount": 1,
+      "classification": "TOP SECRET",
+      "encryptionAlgorithm": "ML-KEM-768 + AES-256-GCM",
+      "status": "Delivered",
+      "distributedBy": "Capt. R. Deshmukh",
+      "distributedAt": "2026-09-20T11:00:00Z",
+      "ledgerEventId": "EVT-88403",
+      "watermarkApplied": true,
+      "capsulePrepared": true
+    },
+    {
+      "id": "DST-44102-2026",
+      "documentId": "NAV-DOC-2026-0029",
+      "documentName": "Tactical_Satcom_Frequency_Allocation.docx",
+      "version": "v1.0",
+      "recipients": [
+        "REC-05",
+        "REC-08"
+      ],
+      "recipientCount": 2,
+      "classification": "SECRET",
+      "encryptionAlgorithm": "AES-256-GCM",
+      "status": "Delivered",
+      "distributedBy": "Lt. Cdr. S. Rao",
+      "distributedAt": "2026-09-18T08:45:00Z",
+      "ledgerEventId": "EVT-88404",
+      "watermarkApplied": true,
+      "capsulePrepared": true
+    },
+    {
+      "id": "DST-55201-2026",
+      "documentId": "NAV-DOC-2026-0061",
+      "documentName": "Carrier_Air_Wing_Sortie_Schedule.pptx",
+      "version": "v2.0",
+      "recipients": [
+        "REC-01",
+        "REC-03"
+      ],
+      "recipientCount": 2,
+      "classification": "SECRET",
+      "encryptionAlgorithm": "ML-KEM-768 + AES-256-GCM",
+      "status": "Delivered",
+      "distributedBy": "Capt. R. Deshmukh",
+      "distributedAt": "2026-09-24T16:20:00Z",
+      "ledgerEventId": "EVT-88405",
+      "watermarkApplied": true,
+      "capsulePrepared": true
+    },
+    {
+      "id": "DST-11002-2026",
+      "documentId": "NAV-DOC-2026-0070",
+      "documentName": "Draft_Coastal_Surveillance_Radar_SOP.docx",
+      "version": "v0.9",
+      "recipients": [
+        "REC-05"
+      ],
+      "recipientCount": 1,
+      "classification": "CONFIDENTIAL",
+      "encryptionAlgorithm": "AES-256-GCM",
+      "status": "Draft",
+      "distributedBy": "Lt. Priya Singh",
+      "distributedAt": "2026-09-26T10:00:00Z",
+      "ledgerEventId": "EVT-88406",
+      "watermarkApplied": true,
+      "capsulePrepared": false
+    },
+    {
+      "id": "DST-66219-2026",
+      "documentId": "NAV-DOC-2026-0042",
+      "documentName": "Mission_Plan_Bravo.pdf",
+      "version": "v2.0",
+      "recipients": [
+        "REC-02",
+        "REC-04"
+      ],
+      "recipientCount": 2,
+      "classification": "TOP SECRET (CODEWORD)",
+      "encryptionAlgorithm": "ML-KEM-768 + AES-256-GCM",
+      "status": "Delivered",
+      "distributedBy": "Capt. R. Deshmukh",
+      "distributedAt": "2026-09-25T14:30:00Z",
+      "ledgerEventId": "EVT-88407",
+      "watermarkApplied": true,
+      "capsulePrepared": true
+    },
+    {
+      "id": "DST-33100-2026",
+      "documentId": "NAV-DOC-2026-0038",
+      "documentName": "Eastern_Littoral_Hydrographic_Intel.pdf",
+      "version": "v1.4",
+      "recipients": [
+        "REC-05"
+      ],
+      "recipientCount": 1,
+      "classification": "SECRET",
+      "encryptionAlgorithm": "ML-KEM-768 + AES-256-GCM",
+      "status": "Delivered",
+      "distributedBy": "Lt. Cdr. S. Rao",
+      "distributedAt": "2026-09-23T11:00:00Z",
+      "ledgerEventId": "EVT-88408",
+      "watermarkApplied": true,
+      "capsulePrepared": true
+    },
+    {
+      "id": "DST-77192-2026",
+      "documentId": "NAV-DOC-2026-0055",
+      "documentName": "Submarine_Acoustic_Signature_Profile.pdf",
+      "version": "v3.0",
+      "recipients": [
+        "REC-01"
+      ],
+      "recipientCount": 1,
+      "classification": "TOP SECRET",
+      "encryptionAlgorithm": "ML-KEM-768 + AES-256-GCM",
+      "status": "Delivered",
+      "distributedBy": "Capt. R. Deshmukh",
+      "distributedAt": "2026-09-21T09:15:00Z",
+      "ledgerEventId": "EVT-88409",
+      "watermarkApplied": true,
+      "capsulePrepared": true
+    },
+    {
+      "id": "DST-88190-2026",
+      "documentId": "NAV-DOC-2026-0029",
+      "documentName": "Tactical_Satcom_Frequency_Allocation.docx",
+      "version": "v1.0",
+      "recipients": [
+        "REC-02",
+        "REC-06"
+      ],
+      "recipientCount": 2,
+      "classification": "SECRET",
+      "encryptionAlgorithm": "AES-256-GCM",
+      "status": "Delivered",
+      "distributedBy": "Lt. Cdr. S. Rao",
+      "distributedAt": "2026-09-19T15:40:00Z",
+      "ledgerEventId": "EVT-88410",
+      "watermarkApplied": true,
+      "capsulePrepared": true
+    }
+  ],
+  "decryption_events": [
+    {
+      "eventId": "EVT-38356",
+      "timestamp": "2026-09-28T11:31:16.591Z",
+      "signatureStatus": "ML-DSA-65 Valid ✓",
+      "channel": "In-Memory Decryption",
+      "matchedLeakArtifact": false,
+      "documentId": "NAV-DOC-2026-0050",
+      "documentName": "Operational_Maritime_Brief_Test.pdf",
+      "versionId": "v1.0",
+      "recipientId": "REC-01",
+      "recipientPseudonym": "Commander Cdr. Arjun Mehta (04821-K)",
+      "unit": "INS Vikramaditya (R33)",
+      "deviceId": "HW-HSM-TEST-01"
+    },
+    {
+      "eventId": "EVT-86401",
+      "documentId": "NAV-DOC-2026-0050",
+      "documentName": "Operational_Maritime_Brief_Test.pdf",
+      "versionId": "v1.0",
+      "recipientId": "REC-01",
+      "recipientPseudonym": "Commander Cdr. Arjun Mehta (04821-K)",
+      "unit": "INS Vikramaditya (R33)",
+      "deviceId": "HW-HSM-9021",
+      "timestamp": "2026-09-28T11:31:16.581Z",
+      "channel": "In-Memory Secure Decryption",
+      "signatureStatus": "ML-DSA-65 Valid ✓",
+      "matchedLeakArtifact": false
+    },
+    {
+      "eventId": "EVT-97915",
+      "timestamp": "2026-09-28T11:20:25.352Z",
+      "signatureStatus": "ML-DSA-65 Valid ✓",
+      "channel": "In-Memory Decryption",
+      "matchedLeakArtifact": false,
+      "documentId": "NAV-DOC-2026-0049",
+      "documentName": "Operational_Maritime_Brief_Test.pdf",
+      "versionId": "v1.0",
+      "recipientId": "REC-01",
+      "recipientPseudonym": "Commander Cdr. Arjun Mehta (04821-K)",
+      "unit": "INS Vikramaditya (R33)",
+      "deviceId": "HW-HSM-TEST-01"
+    },
+    {
+      "eventId": "EVT-79711",
+      "documentId": "NAV-DOC-2026-0049",
+      "documentName": "Operational_Maritime_Brief_Test.pdf",
+      "versionId": "v1.0",
+      "recipientId": "REC-01",
+      "recipientPseudonym": "Commander Cdr. Arjun Mehta (04821-K)",
+      "unit": "INS Vikramaditya (R33)",
+      "deviceId": "HW-HSM-9021",
+      "timestamp": "2026-09-28T11:20:25.345Z",
+      "channel": "In-Memory Secure Decryption",
+      "signatureStatus": "ML-DSA-65 Valid ✓",
+      "matchedLeakArtifact": false
+    },
+    {
+      "eventId": "EVT-88421",
+      "documentId": "NAV-DOC-2026-0042",
+      "documentName": "Mission_Plan_Bravo.pdf",
+      "versionId": "v2.1",
+      "recipientId": "REC-01",
+      "recipientPseudonym": "Cdr. Arjun Mehta (04821-K)",
+      "unit": "INS Vikramaditya (R33)",
+      "deviceId": "HW-HSM-9021",
+      "timestamp": "2026-09-27T04:54:12Z",
+      "channel": "In-Memory Secure Decryption",
+      "signatureStatus": "ML-DSA-65 Valid ✓",
+      "matchedLeakArtifact": true
+    },
+    {
+      "eventId": "EVT-88420",
+      "documentId": "NAV-DOC-2026-0042",
+      "documentName": "Mission_Plan_Bravo.pdf",
+      "versionId": "v2.1",
+      "recipientId": "REC-02",
+      "recipientPseudonym": "Capt. R. Deshmukh (03912-P)",
+      "unit": "Western Fleet HQ",
+      "deviceId": "NAV-HQ-WNC-01",
+      "timestamp": "2026-09-27T04:51:00Z",
+      "channel": "Command Console",
+      "signatureStatus": "ML-DSA-65 Valid ✓",
+      "matchedLeakArtifact": false
+    },
+    {
+      "eventId": "EVT-88419",
+      "documentId": "NAV-DOC-2026-0029",
+      "documentName": "Tactical_Satcom_Frequency_Allocation.docx",
+      "versionId": "v1.0",
+      "recipientId": "REC-05",
+      "recipientPseudonym": "Lt. Priya Singh (06244-S)",
+      "unit": "INS Visakhapatnam (D66)",
+      "deviceId": "HW-HSM-6244",
+      "timestamp": "2026-09-27T04:45:30Z",
+      "channel": "Satellite Terminal",
+      "signatureStatus": "ML-DSA-65 Valid ✓",
+      "matchedLeakArtifact": false
+    },
+    {
+      "eventId": "EVT-88418",
+      "documentId": "NAV-DOC-2026-0038",
+      "documentName": "Eastern_Littoral_Hydrographic_Intel.pdf",
+      "versionId": "v1.4",
+      "recipientId": "REC-07",
+      "recipientPseudonym": "Lt. Amit Saxena (06812-B)",
+      "unit": "Western Fleet HQ",
+      "deviceId": "WNC-TERM-068",
+      "timestamp": "2026-09-27T04:30:15Z",
+      "channel": "Naval LAN",
+      "signatureStatus": "ML-DSA-65 Valid ✓",
+      "matchedLeakArtifact": false
+    },
+    {
+      "eventId": "EVT-88417",
+      "documentId": "NAV-DOC-2026-0061",
+      "documentName": "Carrier_Air_Wing_Sortie_Schedule.pptx",
+      "versionId": "v2.0",
+      "recipientId": "REC-03",
+      "recipientPseudonym": "Lt. Cdr. Sunita Rao (05190-M)",
+      "unit": "INS Vikrant (R11)",
+      "deviceId": "HW-HSM-8812",
+      "timestamp": "2026-09-26T22:10:00Z",
+      "channel": "Tactical Air Console",
+      "signatureStatus": "ML-DSA-65 Valid ✓",
+      "matchedLeakArtifact": false
+    },
+    {
+      "eventId": "EVT-88416",
+      "documentId": "NAV-DOC-2026-0042",
+      "documentName": "Mission_Plan_Bravo.pdf",
+      "versionId": "v2.1",
+      "recipientId": "REC-04",
+      "recipientPseudonym": "Commodore S. V. Nair (02811-A)",
+      "unit": "Naval Headquarters Delhi",
+      "deviceId": "NHQ-SEC-NODE-01",
+      "timestamp": "2026-09-26T21:55:00Z",
+      "channel": "HQ Terminal",
+      "signatureStatus": "ML-DSA-65 Valid ✓",
+      "matchedLeakArtifact": false
+    },
+    {
+      "eventId": "EVT-88415",
+      "documentId": "NAV-DOC-2026-0055",
+      "documentName": "Submarine_Acoustic_Signature_Profile.pdf",
+      "versionId": "v3.0",
+      "recipientId": "REC-06",
+      "recipientPseudonym": "Cdr. Devendra Malik (04118-W)",
+      "unit": "INS Mormugao (D67)",
+      "deviceId": "HW-HSM-4118",
+      "timestamp": "2026-09-26T21:40:00Z",
+      "channel": "Sonar Decryption Vault",
+      "signatureStatus": "ML-DSA-65 Valid ✓",
+      "matchedLeakArtifact": false
+    },
+    {
+      "eventId": "EVT-88414",
+      "documentId": "NAV-DOC-2026-0038",
+      "documentName": "Eastern_Littoral_Hydrographic_Intel.pdf",
+      "versionId": "v1.4",
+      "recipientId": "REC-04",
+      "recipientPseudonym": "Commodore S. V. Nair (02811-A)",
+      "unit": "Naval Headquarters Delhi",
+      "deviceId": "NHQ-SEC-NODE-01",
+      "timestamp": "2026-09-26T18:03:00Z",
+      "channel": "HQ Secure Display",
+      "signatureStatus": "ML-DSA-65 Valid ✓",
+      "matchedLeakArtifact": false
+    },
+    {
+      "eventId": "EVT-88413",
+      "documentId": "NAV-DOC-2026-0029",
+      "documentName": "Tactical_Satcom_Frequency_Allocation.docx",
+      "versionId": "v1.0",
+      "recipientId": "REC-08",
+      "recipientPseudonym": "Sub-Lt. Ananya Verma (07119-V)",
+      "unit": "Naval Cyber Defense Centre",
+      "deviceId": "NCDC-SEC-441",
+      "timestamp": "2026-09-26T17:45:00Z",
+      "channel": "Cyber Vault Workstation",
+      "signatureStatus": "ML-DSA-65 Valid ✓",
+      "matchedLeakArtifact": false
+    },
+    {
+      "eventId": "EVT-88412",
+      "documentId": "NAV-DOC-2026-0042",
+      "documentName": "Mission_Plan_Bravo.pdf",
+      "versionId": "v2.0",
+      "recipientId": "REC-02",
+      "recipientPseudonym": "Capt. R. Deshmukh (03912-P)",
+      "unit": "Western Fleet HQ",
+      "deviceId": "NAV-HQ-WNC-01",
+      "timestamp": "2026-09-26T12:45:00Z",
+      "channel": "Command Console",
+      "signatureStatus": "ML-DSA-65 Valid ✓",
+      "matchedLeakArtifact": false
+    }
+  ],
+  "provenance_capsules": [
+    {
+      "capsuleId": "CAP-1790595076591-oq3c",
+      "documentId": "NAV-DOC-2026-0050",
+      "versionId": "v1.0",
+      "recipientId": "REC-01",
+      "recipientPseudonym": "Commander Cdr. Arjun Mehta (04821-K)",
+      "distributionId": "DST-LATEST",
+      "decryptionEventId": "EVT-38356",
+      "sessionId": "SES-5CZ791",
+      "timestamp": "2026-09-28T11:31:16.591Z",
+      "deviceId": "HW-HSM-TEST-01",
+      "documentHash": "f950367bff92b051ef35c0044d5512569250c8bdc6cae5023212cf48b62076b7",
+      "fingerprintId": "FP-REC-01",
+      "watermarkId": "WM-REC-01",
+      "authorizationId": "POL-01",
+      "ledgerEventId": "EVT-38356",
+      "signature": "0x6f8673c19a974f32a04e8735a8ad90d8ef69214d65785402620b5b6d037a46af",
+      "signatureAlgorithm": "ML-DSA-65 (NIST FIPS 204)",
+      "status": "VERIFIED"
+    },
+    {
+      "capsuleId": "CAP-1790595076581-lx25",
+      "documentId": "NAV-DOC-2026-0050",
+      "versionId": "v1.0",
+      "recipientId": "REC-01",
+      "recipientPseudonym": "Commander Cdr. Arjun Mehta (04821-K)",
+      "distributionId": "DST-1A0E7C891E5-2026",
+      "decryptionEventId": "EVT-86401",
+      "sessionId": "SES-707UKB",
+      "timestamp": "2026-09-28T11:31:16.581Z",
+      "deviceId": "HW-HSM-9021",
+      "documentHash": "dac370cf18fb38952dc48553a8fbe5415190c22791fcb74e7579acb2ce66ad3a",
+      "fingerprintId": "FP-REC-01-NAV-DOC-2026-0050",
+      "watermarkId": "WM-REC-01-DOTS",
+      "authorizationId": "POL-01",
+      "ledgerEventId": "EVT-86401",
+      "signature": "0x02db0bafe66a6b8bbe39b6b89da2a94c8f3946b647e4a81c3a1f5d5765aca0aa",
+      "signatureAlgorithm": "ML-DSA-65 (NIST FIPS 204)",
+      "status": "VERIFIED"
+    },
+    {
+      "capsuleId": "CAP-1790594425352-mh2o",
+      "documentId": "NAV-DOC-2026-0049",
+      "versionId": "v1.0",
+      "recipientId": "REC-01",
+      "recipientPseudonym": "Commander Cdr. Arjun Mehta (04821-K)",
+      "distributionId": "DST-LATEST",
+      "decryptionEventId": "EVT-97915",
+      "sessionId": "SES-JP1F7E",
+      "timestamp": "2026-09-28T11:20:25.352Z",
+      "deviceId": "HW-HSM-TEST-01",
+      "documentHash": "89dae3a18543c808b8f5bc19f9a2e6d4c1369247469db467bc41563a99e6be02",
+      "fingerprintId": "FP-REC-01",
+      "watermarkId": "WM-REC-01",
+      "authorizationId": "POL-01",
+      "ledgerEventId": "EVT-97915",
+      "signature": "0x4278ca02738ec5a8e2ecd01324193f23fa148d499ac9284bbaba33bc2c3c43f1",
+      "signatureAlgorithm": "ML-DSA-65 (NIST FIPS 204)",
+      "status": "VERIFIED"
+    },
+    {
+      "capsuleId": "CAP-1790594425345-kg5w",
+      "documentId": "NAV-DOC-2026-0049",
+      "versionId": "v1.0",
+      "recipientId": "REC-01",
+      "recipientPseudonym": "Commander Cdr. Arjun Mehta (04821-K)",
+      "distributionId": "DST-1A0E7BEA201-2026",
+      "decryptionEventId": "EVT-79711",
+      "sessionId": "SES-FL2MZC",
+      "timestamp": "2026-09-28T11:20:25.345Z",
+      "deviceId": "HW-HSM-9021",
+      "documentHash": "a889a7dde9db10d4b8849e5c03e9a82af2f109c30d6f780db612ed6b5f8a72af",
+      "fingerprintId": "FP-REC-01-NAV-DOC-2026-0049",
+      "watermarkId": "WM-REC-01-DOTS",
+      "authorizationId": "POL-01",
+      "ledgerEventId": "EVT-79711",
+      "signature": "0x19e60b9ec08418bdaa7586e129bcb297eda0fb8f4958410b527741b32f4415b7",
+      "signatureAlgorithm": "ML-DSA-65 (NIST FIPS 204)",
+      "status": "VERIFIED"
+    },
+    {
+      "capsuleId": "CAP-2026-0042-01",
+      "documentId": "NAV-DOC-2026-0042",
+      "versionId": "v2.1",
+      "recipientId": "REC-01",
+      "recipientPseudonym": "Cdr. Arjun Mehta (04821-K)",
+      "distributionId": "DST-8F921-2026",
+      "decryptionEventId": "EVT-88421",
+      "sessionId": "SES-99120-X88",
+      "timestamp": "2026-09-27T04:54:12Z",
+      "deviceId": "HW-HSM-9021",
+      "documentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fingerprintId": "FP-04821-K-0042",
+      "watermarkId": "WM-04821-K-DOTS",
+      "authorizationId": "POL-01",
+      "ledgerEventId": "EVT-88421",
+      "signature": "0x88f21ac0981baacc3321ff88901239aa8841cbb8901239aa",
+      "signatureAlgorithm": "ML-DSA-65 (NIST FIPS 204)",
+      "status": "VERIFIED"
+    },
+    {
+      "capsuleId": "CAP-2026-0042-02",
+      "documentId": "NAV-DOC-2026-0042",
+      "versionId": "v2.1",
+      "recipientId": "REC-02",
+      "recipientPseudonym": "Capt. R. Deshmukh (03912-P)",
+      "distributionId": "DST-8F921-2026",
+      "decryptionEventId": "EVT-88420",
+      "sessionId": "SES-99119-W01",
+      "timestamp": "2026-09-27T04:51:00Z",
+      "deviceId": "NAV-HQ-WNC-01",
+      "documentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fingerprintId": "FP-03912-P-0042",
+      "watermarkId": "WM-03912-P-DOTS",
+      "authorizationId": "POL-01",
+      "ledgerEventId": "EVT-88420",
+      "signature": "0x77aa4419cb20331188bb9012349acb884129bb88129aa",
+      "signatureAlgorithm": "ML-DSA-65 (NIST FIPS 204)",
+      "status": "VERIFIED"
+    },
+    {
+      "capsuleId": "CAP-2026-0029-01",
+      "documentId": "NAV-DOC-2026-0029",
+      "versionId": "v1.0",
+      "recipientId": "REC-05",
+      "recipientPseudonym": "Lt. Priya Singh (06244-S)",
+      "distributionId": "DST-44102-2026",
+      "decryptionEventId": "EVT-88419",
+      "sessionId": "SES-77102-D66",
+      "timestamp": "2026-09-27T04:45:30Z",
+      "deviceId": "HW-HSM-6244",
+      "documentHash": "b2c3d4e5f60718293a4b5c6d7e8f90123456789abcdef0123456789abcdef01",
+      "fingerprintId": "FP-06244-S-0029",
+      "watermarkId": "WM-06244-S-DOTS",
+      "authorizationId": "POL-02",
+      "ledgerEventId": "EVT-88419",
+      "signature": "0x99cc441098ef33bb8822001923bc9910aa112349",
+      "signatureAlgorithm": "ML-DSA-65 (NIST FIPS 204)",
+      "status": "VERIFIED"
+    },
+    {
+      "capsuleId": "CAP-2026-0038-01",
+      "documentId": "NAV-DOC-2026-0038",
+      "versionId": "v1.4",
+      "recipientId": "REC-07",
+      "recipientPseudonym": "Lt. Amit Saxena (06812-B)",
+      "distributionId": "DST-7E110-2026",
+      "decryptionEventId": "EVT-88418",
+      "sessionId": "SES-55110-W02",
+      "timestamp": "2026-09-27T04:30:15Z",
+      "deviceId": "WNC-TERM-068",
+      "documentHash": "f4b1a88390fc1d234aebf4c8996eb92427ae41e4649c884ca495991b7852c991",
+      "fingerprintId": "FP-06812-B-0038",
+      "watermarkId": "WM-06812-B-DOTS",
+      "authorizationId": "POL-02",
+      "ledgerEventId": "EVT-88418",
+      "signature": "0x12ffaa9098bc77ac33bb8822001923bc9910aa11",
+      "signatureAlgorithm": "ML-DSA-65 (NIST FIPS 204)",
+      "status": "VERIFIED"
+    },
+    {
+      "capsuleId": "CAP-2026-0061-01",
+      "documentId": "NAV-DOC-2026-0061",
+      "versionId": "v2.0",
+      "recipientId": "REC-03",
+      "recipientPseudonym": "Lt. Cdr. Sunita Rao (05190-M)",
+      "distributionId": "DST-55201-2026",
+      "decryptionEventId": "EVT-88417",
+      "sessionId": "SES-33100-R11",
+      "timestamp": "2026-09-26T22:10:00Z",
+      "deviceId": "HW-HSM-8812",
+      "documentHash": "c3d4e5f60718293a4b5c6d7e8f90123456789abcdef0123456789abcdef012",
+      "fingerprintId": "FP-05190-M-0061",
+      "watermarkId": "WM-05190-M-DOTS",
+      "authorizationId": "POL-03",
+      "ledgerEventId": "EVT-88417",
+      "signature": "0x44dd1122aa8841cbb8901239aa88f21ac0981b",
+      "signatureAlgorithm": "ML-DSA-65 (NIST FIPS 204)",
+      "status": "VERIFIED"
+    },
+    {
+      "capsuleId": "CAP-2026-0042-03",
+      "documentId": "NAV-DOC-2026-0042",
+      "versionId": "v2.1",
+      "recipientId": "REC-04",
+      "recipientPseudonym": "Commodore S. V. Nair (02811-A)",
+      "distributionId": "DST-8F921-2026",
+      "decryptionEventId": "EVT-88416",
+      "sessionId": "SES-22100-NHQ",
+      "timestamp": "2026-09-26T21:55:00Z",
+      "deviceId": "NHQ-SEC-NODE-01",
+      "documentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fingerprintId": "FP-02811-A-0042",
+      "watermarkId": "WM-02811-A-DOTS",
+      "authorizationId": "POL-01",
+      "ledgerEventId": "EVT-88416",
+      "signature": "0x991144aa77cc889988f21ac0981baacc3321ff88",
+      "signatureAlgorithm": "ML-DSA-65 (NIST FIPS 204)",
+      "status": "VERIFIED"
+    },
+    {
+      "capsuleId": "CAP-2026-0055-01",
+      "documentId": "NAV-DOC-2026-0055",
+      "versionId": "v3.0",
+      "recipientId": "REC-06",
+      "recipientPseudonym": "Cdr. Devendra Malik (04118-W)",
+      "distributionId": "DST-99120-2026",
+      "decryptionEventId": "EVT-88415",
+      "sessionId": "SES-11902-D67",
+      "timestamp": "2026-09-26T21:40:00Z",
+      "deviceId": "HW-HSM-4118",
+      "documentHash": "a1b2c3d4e5f60718293a4b5c6d7e8f90123456789abcdef0123456789abcdef0",
+      "fingerprintId": "FP-04118-W-0055",
+      "watermarkId": "WM-04118-W-DOTS",
+      "authorizationId": "POL-01",
+      "ledgerEventId": "EVT-88415",
+      "signature": "0x7711aa22ee5566cc88f21ac0981baacc3321ff88",
+      "signatureAlgorithm": "ML-DSA-65 (NIST FIPS 204)",
+      "status": "VERIFIED"
+    },
+    {
+      "capsuleId": "CAP-2026-0038-02",
+      "documentId": "NAV-DOC-2026-0038",
+      "versionId": "v1.4",
+      "recipientId": "REC-04",
+      "recipientPseudonym": "Commodore S. V. Nair (02811-A)",
+      "distributionId": "DST-7E110-2026",
+      "decryptionEventId": "EVT-88414",
+      "sessionId": "SES-11800-NHQ",
+      "timestamp": "2026-09-26T18:03:00Z",
+      "deviceId": "NHQ-SEC-NODE-01",
+      "documentHash": "f4b1a88390fc1d234aebf4c8996eb92427ae41e4649c884ca495991b7852c991",
+      "fingerprintId": "FP-02811-A-0038",
+      "watermarkId": "WM-02811-A-DOTS",
+      "authorizationId": "POL-02",
+      "ledgerEventId": "EVT-88414",
+      "signature": "0x99aa11223344556677889900aabbccddeeff0011",
+      "signatureAlgorithm": "ML-DSA-65 (NIST FIPS 204)",
+      "status": "VERIFIED"
+    },
+    {
+      "capsuleId": "CAP-2026-0029-02",
+      "documentId": "NAV-DOC-2026-0029",
+      "versionId": "v1.0",
+      "recipientId": "REC-08",
+      "recipientPseudonym": "Sub-Lt. Ananya Verma (07119-V)",
+      "distributionId": "DST-44102-2026",
+      "decryptionEventId": "EVT-88413",
+      "sessionId": "SES-00912-NCDC",
+      "timestamp": "2026-09-26T17:45:00Z",
+      "deviceId": "NCDC-SEC-441",
+      "documentHash": "b2c3d4e5f60718293a4b5c6d7e8f90123456789abcdef0123456789abcdef01",
+      "fingerprintId": "FP-07119-V-0029",
+      "watermarkId": "WM-07119-V-DOTS",
+      "authorizationId": "POL-02",
+      "ledgerEventId": "EVT-88413",
+      "signature": "0xff112233445566778899aabbccddeeff00112233",
+      "signatureAlgorithm": "ML-DSA-65 (NIST FIPS 204)",
+      "status": "VERIFIED"
+    },
+    {
+      "capsuleId": "CAP-2026-0042-04",
+      "documentId": "NAV-DOC-2026-0042",
+      "versionId": "v2.0",
+      "recipientId": "REC-02",
+      "recipientPseudonym": "Capt. R. Deshmukh (03912-P)",
+      "distributionId": "DST-66219-2026",
+      "decryptionEventId": "EVT-88412",
+      "sessionId": "SES-00811-WNC",
+      "timestamp": "2026-09-26T12:45:00Z",
+      "deviceId": "NAV-HQ-WNC-01",
+      "documentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fingerprintId": "FP-03912-P-0042-V2",
+      "watermarkId": "WM-03912-P-DOTS",
+      "authorizationId": "POL-01",
+      "ledgerEventId": "EVT-88412",
+      "signature": "0x32ba1198c00192ea7732b8910ac2219901aa8821",
+      "signatureAlgorithm": "ML-DSA-65 (NIST FIPS 204)",
+      "status": "VERIFIED"
+    }
+  ],
+  "fingerprints": [
+    {
+      "id": "FP-04821-K-0042",
+      "recipientId": "REC-01",
+      "documentId": "NAV-DOC-2026-0042",
+      "seed": "0x88f21ac0981baacc",
+      "type": "Steganographic Micro-Dot Constellation",
+      "extractedConfidence": 99.8,
+      "status": "Active"
+    }
+  ],
+  "watermarks": [
+    {
+      "id": "WM-04821-K-DOTS",
+      "recipientId": "REC-01",
+      "documentId": "NAV-DOC-2026-0042",
+      "pattern": "Yellow Dot Modulation Grid L3",
+      "densityPct": 98.4,
+      "robustness": "SURVIVES_PRINT_SCAN_PHOTO"
+    }
+  ],
+  "ledger_blocks": [
+    {
+      "blockNumber": 4194,
+      "timestamp": "2026-09-28T11:31:16.581Z",
+      "merkleRootHash": "0x39246d3bfb40a235edab8d32f9d15a454d700356c8b090d2",
+      "previousBlockHash": "0x6828aa74b0fa26cbb89d81f180d0b790ccc0021d04675b9d",
+      "eventCount": 1,
+      "validatingNode": "NAVAL-HQ-DELHI (PQC Validator 01)",
+      "status": "Verified",
+      "events": [
+        {
+          "eventId": "EVT-76581",
+          "recipientPseudonym": "Multi-Recipient Distribution (1 Units)",
+          "documentId": "NAV-DOC-2026-0050",
+          "documentName": "Operational_Maritime_Brief_Test.pdf",
+          "timestamp": "2026-09-28T11:31:16.581Z",
+          "signatureStatus": "ML-DSA-65 Valid ✓",
+          "channel": "Tactical Quantum-Safe Distribution",
+          "accessType": "Cryptographic Seed Delivery",
+          "nonce": "971ed9a0",
+          "merkleLeaf": "0x21050be5b9203026..."
+        }
+      ]
+    },
+    {
+      "blockNumber": 4193,
+      "timestamp": "2026-09-28T11:20:25.345Z",
+      "merkleRootHash": "0x6828aa74b0fa26cbb89d81f180d0b790ccc0021d04675b9d",
+      "previousBlockHash": "0x88f21ac0981baacc3321ff88901239aa8841cbb8901239aa",
+      "eventCount": 1,
+      "validatingNode": "NAVAL-HQ-DELHI (PQC Validator 01)",
+      "status": "Verified",
+      "events": [
+        {
+          "eventId": "EVT-25345",
+          "recipientPseudonym": "Multi-Recipient Distribution (1 Units)",
+          "documentId": "NAV-DOC-2026-0049",
+          "documentName": "Operational_Maritime_Brief_Test.pdf",
+          "timestamp": "2026-09-28T11:20:25.345Z",
+          "signatureStatus": "ML-DSA-65 Valid ✓",
+          "channel": "Tactical Quantum-Safe Distribution",
+          "accessType": "Cryptographic Seed Delivery",
+          "nonce": "fbb66183",
+          "merkleLeaf": "0x62ccd31ffd409f5c..."
+        }
+      ]
+    },
+    {
+      "blockNumber": 4192,
+      "timestamp": "27 Sep 2026 04:54:12Z",
+      "merkleRootHash": "0x88f21ac0981baacc3321ff88901239aa8841cbb8901239aa",
+      "previousBlockHash": "0x32ba1198c00192ea7732b8910ac2219901aa8821",
+      "eventCount": 4,
+      "validatingNode": "NAVAL-HQ-DELHI (PQC Validator 01)",
+      "status": "Verified",
+      "events": [
+        {
+          "eventId": "EVT-88421",
+          "recipientPseudonym": "Cdr. Arjun Mehta (04821-K)",
+          "documentId": "NAV-DOC-2026-0042",
+          "documentName": "Mission_Plan_Bravo.pdf",
+          "timestamp": "27 Sep 2026 04:54:12Z",
+          "signatureStatus": "ML-DSA-65 Valid ✓",
+          "channel": "Decryption Event (In-Memory)",
+          "accessType": "View Only",
+          "nonce": "9a38f71c",
+          "merkleLeaf": "0x4a8f22091bc8..."
+        },
+        {
+          "eventId": "EVT-88420",
+          "recipientPseudonym": "Capt. R. Deshmukh (03912-P)",
+          "documentId": "NAV-DOC-2026-0042",
+          "documentName": "Mission_Plan_Bravo.pdf",
+          "timestamp": "27 Sep 2026 04:51:00Z",
+          "signatureStatus": "ML-DSA-65 Valid ✓",
+          "channel": "Internal Naval Net",
+          "accessType": "Full Access",
+          "nonce": "11fe89ac",
+          "merkleLeaf": "0x77aa4419cb20..."
+        },
+        {
+          "eventId": "EVT-88419",
+          "recipientPseudonym": "Western Fleet Tactical Controller",
+          "documentId": "NAV-DOC-2026-0029",
+          "documentName": "Tactical_Satcom_Frequency_Allocation.docx",
+          "timestamp": "27 Sep 2026 04:45:30Z",
+          "signatureStatus": "ML-DSA-65 Valid ✓",
+          "channel": "Satellite Relay (EHF)",
+          "accessType": "View Only",
+          "nonce": "33bb9901",
+          "merkleLeaf": "0x99cc441098ef..."
+        },
+        {
+          "eventId": "EVT-88418",
+          "recipientPseudonym": "Lt. Cdr. S. Rao (INV-0042)",
+          "documentId": "NAV-DOC-2026-0038",
+          "documentName": "Eastern_Littoral_Hydrographic_Intel.pdf",
+          "timestamp": "27 Sep 2026 04:30:15Z",
+          "signatureStatus": "ML-DSA-65 Valid ✓",
+          "channel": "Optical Physical Diode",
+          "accessType": "Download",
+          "nonce": "77ac0012",
+          "merkleLeaf": "0x12ffaa9098bc..."
+        }
+      ]
+    },
+    {
+      "blockNumber": 4191,
+      "timestamp": "26 Sep 2026 22:15:00Z",
+      "merkleRootHash": "0x32ba1198c00192ea7732b8910ac2219901aa8821",
+      "previousBlockHash": "0x55aa001923bc9910aa112349bc981244dff98012",
+      "eventCount": 3,
+      "validatingNode": "HQ-WNC-MUMBAI-NODE-02",
+      "status": "Verified",
+      "events": [
+        {
+          "eventId": "EVT-88417",
+          "recipientPseudonym": "Lt. Cdr. Sunita Rao (05190-M)",
+          "documentId": "NAV-DOC-2026-0061",
+          "documentName": "Carrier_Air_Wing_Sortie_Schedule.pptx",
+          "timestamp": "26 Sep 2026 22:10:00Z",
+          "signatureStatus": "ML-DSA-65 Valid ✓",
+          "channel": "Carrier Tactical Bus",
+          "accessType": "View Only",
+          "nonce": "55ee1199",
+          "merkleLeaf": "0x22cba001188a..."
+        },
+        {
+          "eventId": "EVT-88416",
+          "recipientPseudonym": "Naval Operations Staff Officer",
+          "documentId": "NAV-DOC-2026-0042",
+          "documentName": "Mission_Plan_Bravo.pdf",
+          "timestamp": "26 Sep 2026 21:55:00Z",
+          "signatureStatus": "ML-DSA-65 Valid ✓",
+          "channel": "Encrypted Fiber Ring",
+          "accessType": "View Only",
+          "nonce": "66ff2200",
+          "merkleLeaf": "0x44dd1122aa88..."
+        },
+        {
+          "eventId": "EVT-88415",
+          "recipientPseudonym": "Submarine Flotilla CO",
+          "documentId": "NAV-DOC-2026-0055",
+          "documentName": "Submarine_Acoustic_Signature_Profile.pdf",
+          "timestamp": "26 Sep 2026 21:40:00Z",
+          "signatureStatus": "ML-DSA-65 Valid ✓",
+          "channel": "Acoustic Dockside Interface",
+          "accessType": "Download",
+          "nonce": "88aa3311",
+          "merkleLeaf": "0x66ee2233bb99..."
+        }
+      ]
+    },
+    {
+      "blockNumber": 4190,
+      "timestamp": "26 Sep 2026 18:05:00Z",
+      "merkleRootHash": "0x55aa001923bc9910aa112349bc981244dff98012",
+      "previousBlockHash": "0x44cc001923bc9910aa112349bc981244dff98012",
+      "eventCount": 2,
+      "validatingNode": "HQ-ENC-VIZAG-NODE-01",
+      "status": "Verified",
+      "events": [
+        {
+          "eventId": "EVT-88414",
+          "recipientPseudonym": "Eastern Fleet Hydrographer",
+          "documentId": "NAV-DOC-2026-0038",
+          "documentName": "Eastern_Littoral_Hydrographic_Intel.pdf",
+          "timestamp": "26 Sep 2026 18:03:00Z",
+          "signatureStatus": "ML-DSA-65 Valid ✓",
+          "channel": "ENC Protected Network",
+          "accessType": "View Only",
+          "nonce": "11aa2233",
+          "merkleLeaf": "0x55ff66778899..."
+        },
+        {
+          "eventId": "EVT-88413",
+          "recipientPseudonym": "NCDC Duty Watch Officer",
+          "documentId": "NAV-DOC-2026-0029",
+          "documentName": "Tactical_Satcom_Frequency_Allocation.docx",
+          "timestamp": "26 Sep 2026 17:45:00Z",
+          "signatureStatus": "ML-DSA-65 Valid ✓",
+          "channel": "Direct Fiber Cable",
+          "accessType": "View Only",
+          "nonce": "22bb3344",
+          "merkleLeaf": "0x77aa88990011..."
+        }
+      ]
+    },
+    {
+      "blockNumber": 4189,
+      "timestamp": "26 Sep 2026 13:00:00Z",
+      "merkleRootHash": "0x44cc001923bc9910aa112349bc981244dff98012",
+      "previousBlockHash": "0x11bb001923bc9910aa112349bc981244dff98012",
+      "eventCount": 1,
+      "validatingNode": "NAVAL-HQ-DELHI (PQC Validator 01)",
+      "status": "Verified",
+      "events": [
+        {
+          "eventId": "EVT-88412",
+          "recipientPseudonym": "Capt. R. Deshmukh (03912-P)",
+          "documentId": "NAV-DOC-2026-0042",
+          "documentName": "Mission_Plan_Bravo.pdf",
+          "timestamp": "26 Sep 2026 12:45:00Z",
+          "signatureStatus": "ML-DSA-65 Valid ✓",
+          "channel": "Command Console",
+          "accessType": "Full Access",
+          "nonce": "33cc4455",
+          "merkleLeaf": "0x99bb00112233..."
+        }
+      ]
+    },
+    {
+      "blockNumber": 4188,
+      "timestamp": "26 Sep 2026 09:30:00Z",
+      "merkleRootHash": "0x11bb001923bc9910aa112349bc981244dff98012",
+      "previousBlockHash": "0x00aa001923bc9910aa112349bc981244dff98012",
+      "eventCount": 2,
+      "validatingNode": "HQ-WNC-MUMBAI-NODE-01",
+      "status": "Verified",
+      "events": [
+        {
+          "eventId": "EVT-88411",
+          "recipientPseudonym": "Western Fleet Flag Officer",
+          "documentId": "NAV-DOC-2026-0061",
+          "documentName": "Carrier_Air_Wing_Sortie_Schedule.pptx",
+          "timestamp": "26 Sep 2026 09:20:00Z",
+          "signatureStatus": "ML-DSA-65 Valid ✓",
+          "channel": "Secure Fleet Relay",
+          "accessType": "View Only",
+          "nonce": "44dd5566",
+          "merkleLeaf": "0xbbcc11223344..."
+        }
+      ]
+    },
+    {
+      "blockNumber": 4187,
+      "timestamp": "26 Sep 2026 04:00:00Z",
+      "merkleRootHash": "0x00aa001923bc9910aa112349bc981244dff98012",
+      "previousBlockHash": "0x99ee001923bc9910aa112349bc981244dff98012",
+      "eventCount": 2,
+      "validatingNode": "NAVAL-HQ-DELHI (PQC Validator 02)",
+      "status": "Verified",
+      "events": [
+        {
+          "eventId": "EVT-88410",
+          "recipientPseudonym": "Cdr. Arjun Mehta (04821-K)",
+          "documentId": "NAV-DOC-2026-0042",
+          "documentName": "Mission_Plan_Bravo.pdf",
+          "timestamp": "26 Sep 2026 03:50:00Z",
+          "signatureStatus": "ML-DSA-65 Valid ✓",
+          "channel": "HSM Local Decryption",
+          "accessType": "View Only",
+          "nonce": "55ee6677",
+          "merkleLeaf": "0xccddee112233..."
+        }
+      ]
+    },
+    {
+      "blockNumber": 4186,
+      "timestamp": "25 Sep 2026 21:00:00Z",
+      "merkleRootHash": "0x99ee001923bc9910aa112349bc981244dff98012",
+      "previousBlockHash": "0x88dd001923bc9910aa112349bc981244dff98012",
+      "eventCount": 1,
+      "validatingNode": "HQ-ENC-VIZAG-NODE-01",
+      "status": "Verified",
+      "events": [
+        {
+          "eventId": "EVT-88409",
+          "recipientPseudonym": "Hydrographic Office Director",
+          "documentId": "NAV-DOC-2026-0038",
+          "documentName": "Eastern_Littoral_Hydrographic_Intel.pdf",
+          "timestamp": "25 Sep 2026 20:45:00Z",
+          "signatureStatus": "ML-DSA-65 Valid ✓",
+          "channel": "ENC Gateway",
+          "accessType": "View Only",
+          "nonce": "66ff7788",
+          "merkleLeaf": "0xddeeff223344..."
+        }
+      ]
+    },
+    {
+      "blockNumber": 4185,
+      "timestamp": "25 Sep 2026 15:30:00Z",
+      "merkleRootHash": "0x88dd001923bc9910aa112349bc981244dff98012",
+      "previousBlockHash": "0x77cc001923bc9910aa112349bc981244dff98012",
+      "eventCount": 3,
+      "validatingNode": "HQ-WNC-MUMBAI-NODE-02",
+      "status": "Verified",
+      "events": [
+        {
+          "eventId": "EVT-88408",
+          "recipientPseudonym": "INS Vikramaditya Tactical Ops",
+          "documentId": "NAV-DOC-2026-0042",
+          "documentName": "Mission_Plan_Bravo.pdf",
+          "timestamp": "25 Sep 2026 15:20:00Z",
+          "signatureStatus": "ML-DSA-65 Valid ✓",
+          "channel": "Shipboard LAN",
+          "accessType": "View Only",
+          "nonce": "77008899",
+          "merkleLeaf": "0xeeff00334455..."
+        }
+      ]
+    },
+    {
+      "blockNumber": 4184,
+      "timestamp": "25 Sep 2026 10:15:00Z",
+      "merkleRootHash": "0x77cc001923bc9910aa112349bc981244dff98012",
+      "previousBlockHash": "0x66bb001923bc9910aa112349bc981244dff98012",
+      "eventCount": 2,
+      "validatingNode": "NAVAL-HQ-DELHI (PQC Validator 01)",
+      "status": "Verified",
+      "events": [
+        {
+          "eventId": "EVT-88407",
+          "recipientPseudonym": "Western Fleet Comm Officer",
+          "documentId": "NAV-DOC-2026-0029",
+          "documentName": "Tactical_Satcom_Frequency_Allocation.docx",
+          "timestamp": "25 Sep 2026 10:05:00Z",
+          "signatureStatus": "ML-DSA-65 Valid ✓",
+          "channel": "Satellite Uplink",
+          "accessType": "View Only",
+          "nonce": "88119900",
+          "merkleLeaf": "0xff0011445566..."
+        }
+      ]
+    },
+    {
+      "blockNumber": 4183,
+      "timestamp": "25 Sep 2026 05:00:00Z",
+      "merkleRootHash": "0x66bb001923bc9910aa112349bc981244dff98012",
+      "previousBlockHash": "0x55aa001923bc9910aa112349bc981244dff98012",
+      "eventCount": 1,
+      "validatingNode": "HQ-WNC-MUMBAI-NODE-01",
+      "status": "Verified",
+      "events": [
+        {
+          "eventId": "EVT-88406",
+          "recipientPseudonym": "Submarine Commander",
+          "documentId": "NAV-DOC-2026-0055",
+          "documentName": "Submarine_Acoustic_Signature_Profile.pdf",
+          "timestamp": "25 Sep 2026 04:45:00Z",
+          "signatureStatus": "ML-DSA-65 Valid ✓",
+          "channel": "HSM Vault",
+          "accessType": "Full Access",
+          "nonce": "99220011",
+          "merkleLeaf": "0x001122556677..."
+        }
+      ]
+    }
+  ],
+  "ledger_events": [
+    {
+      "id": "LEV-01",
+      "blockNumber": 4192,
+      "type": "DOCUMENT_DECRYPTED",
+      "documentId": "NAV-DOC-2026-0042",
+      "recipientId": "REC-01",
+      "timestamp": "2026-09-27T04:54:12Z"
+    }
+  ],
+  "leak_artifacts": [
+    {
+      "id": "ART-1A0E8EF0CB7",
+      "filename": "Screenshot 2026-09-28 153440.png",
+      "documentId": "",
+      "size": "0.2 MB",
+      "format": "PNG",
+      "uploadedAt": "2026-09-28T16:52:55.607Z",
+      "hash": "SHA256: 3d300eb8edc2725ffe47304b469af0d01c6321a738629a0b257718ce6d711bcd",
+      "analysisStatus": "PENDING",
+      "analyst_status": "PENDING REVIEW",
+      "mime_type": "image/png",
+      "analysis_status": "COMPLETED",
+      "confidence_score": 61.2,
+      "attribution_status": "UNRESOLVED",
+      "matched_document_id": "NAV-DOC-2026-0070",
+      "attributed_recipient_id": "REC-01"
+    },
+    {
+      "id": "ART-1A0E8D691E4",
+      "filename": "Screenshot 2026-09-28 171505.png",
+      "documentId": "",
+      "size": "0.1 MB",
+      "format": "PNG",
+      "uploadedAt": "2026-09-28T16:26:11.300Z",
+      "hash": "SHA256: 369aafd65dbd1b38f2f49780b35c86237480b8f5444fc283a6685724b50351c6",
+      "analysisStatus": "PENDING",
+      "analyst_status": "PENDING REVIEW",
+      "mime_type": "image/png",
+      "analysis_status": "COMPLETED",
+      "confidence_score": 61.2,
+      "attribution_status": "UNRESOLVED",
+      "matched_document_id": "NAV-DOC-2026-0070",
+      "attributed_recipient_id": "REC-01"
+    },
+    {
+      "id": "ART-1A0E8D672AA",
+      "filename": "Screenshot 2026-09-28 153440.png",
+      "documentId": "",
+      "size": "0.2 MB",
+      "format": "PNG",
+      "uploadedAt": "2026-09-28T16:26:03.307Z",
+      "hash": "SHA256: 3d300eb8edc2725ffe47304b469af0d01c6321a738629a0b257718ce6d711bcd",
+      "analysisStatus": "PENDING",
+      "analyst_status": "PENDING REVIEW",
+      "mime_type": "image/png",
+      "analysis_status": "COMPLETED",
+      "confidence_score": 61.2,
+      "attribution_status": "UNRESOLVED",
+      "matched_document_id": "NAV-DOC-2026-0070",
+      "attributed_recipient_id": "REC-01"
+    },
+    {
+      "id": "ART-1A0E7E68E01",
+      "filename": "classified_screen_capture_alpha.png",
+      "documentId": "",
+      "size": "3.4 MB",
+      "format": "PNG",
+      "uploadedAt": "2026-09-28T12:04:01.665Z",
+      "hash": "SHA256: bf6a5391908a3735fd72f628fb6a62100d46ac59882323435fd19bd6a352526c",
+      "analysisStatus": "PENDING",
+      "analyst_status": "PENDING REVIEW",
+      "mime_type": "image/png",
+      "analysis_status": "COMPLETED",
+      "confidence_score": 0,
+      "attribution_status": "NO_MATCH"
+    },
+    {
+      "id": "ART-1A0E7C89208",
+      "filename": "intercepted_tactical_screen.jpg",
+      "documentId": "NAV-DOC-2026-0050",
+      "size": "2.1 MB",
+      "format": "JPG",
+      "uploadedAt": "2026-09-28T11:31:16.616Z",
+      "hash": "SHA256: 75318f0d931a0280c626928b5e9cdbf551737eeeaa52c7db98d1c2e3ff597d55",
+      "analysisStatus": "ANALYZED"
+    },
+    {
+      "id": "ART-1A0E7BEA226",
+      "filename": "intercepted_tactical_screen.jpg",
+      "documentId": "NAV-DOC-2026-0049",
+      "size": "2.1 MB",
+      "format": "JPG",
+      "uploadedAt": "2026-09-28T11:20:25.382Z",
+      "hash": "SHA256: 70b660064d598719be656efd1607feb0d944bb9124e09bd4edb8134ad35ed83c",
+      "analysisStatus": "ANALYZED"
+    },
+    {
+      "id": "ART-2026-001",
+      "filename": "leaked_mission_plan.jpg",
+      "documentId": "NAV-DOC-2026-0042",
+      "size": "2.4 MB",
+      "format": "JPG",
+      "uploadedAt": "2026-09-27T05:02:00Z",
+      "hash": "SHA256: 88f21ac0981baacc3321ff88901239aa",
+      "analysisStatus": "ANALYZED",
+      "analysis_status": "COMPLETED",
+      "confidence_score": 97.4,
+      "attribution_status": "MATCH_FOUND",
+      "matched_document_id": "NAV-DOC-2026-0042",
+      "attributed_recipient_id": "REC-01",
+      "analyst_status": "CONFIRMED",
+      "analyst_reviewer": "Cdr. Arjun Saxena",
+      "analyst_reviewed_at": "2026-09-28T16:51:40.620Z",
+      "analyst_note": "Validated match"
+    },
+    {
+      "id": "ART-2026-002",
+      "filename": "intel_notes.pdf",
+      "documentId": "NAV-DOC-2026-0038",
+      "size": "1.1 MB",
+      "format": "PDF",
+      "uploadedAt": "2026-09-27T06:15:00Z",
+      "hash": "SHA256: 12ffaa9098bc77ac33bb8822001923bc",
+      "analysisStatus": "ANALYZED",
+      "analysis_status": "COMPLETED",
+      "confidence_score": 88.5,
+      "attribution_status": "MATCH_FOUND",
+      "matched_document_id": "NAV-DOC-2026-0049",
+      "attributed_recipient_id": "REC-02"
+    },
+    {
+      "id": "ART-2026-003",
+      "filename": "screenshot_001.png",
+      "documentId": "NAV-DOC-2026-0042",
+      "size": "1.8 MB",
+      "format": "PNG",
+      "uploadedAt": "2026-09-27T07:30:00Z",
+      "hash": "SHA256: 77aa4419cb20331188bb9012349acb88",
+      "analysisStatus": "ANALYZED",
+      "analysis_status": "COMPLETED",
+      "confidence_score": 61.2,
+      "attribution_status": "UNRESOLVED",
+      "matched_document_id": "NAV-DOC-2026-0070",
+      "attributed_recipient_id": "REC-01"
+    },
+    {
+      "id": "ART-2026-004",
+      "filename": "photo_briefing.jpg",
+      "documentId": "NAV-DOC-2026-0061",
+      "size": "2.6 MB",
+      "format": "JPG",
+      "uploadedAt": "2026-09-27T08:10:00Z",
+      "hash": "SHA256: 44dd1122aa8841cbb8901239aa88f21a",
+      "analysisStatus": "ANALYZED",
+      "analysis_status": "COMPLETED",
+      "confidence_score": 0,
+      "attribution_status": "NO_MATCH"
+    }
+  ],
+  "forensic_evidence": [
+    {
+      "id": "EVD-01",
+      "caseId": "INV-2026-0042",
+      "artifactId": "ART-2026-001",
+      "watermarkDetected": true,
+      "steganographicSeed": "0x88f21ac0981baacc",
+      "matchedRecipientId": "REC-01",
+      "matchedVersion": "v2.1",
+      "tamperProbabilityScore": 12.4,
+      "sensorPattern": "CMOS Optical Distortion (Photo of Screen)"
+    }
+  ],
+  "evidence_checks": [
+    {
+      "caseId": "INV-2026-0042",
+      "fingerprintMatch": "PASS",
+      "documentHashMatch": "PASS",
+      "versionMatch": "PASS",
+      "authorizationMatch": "PASS",
+      "recipientMatch": "PASS",
+      "signatureValid": "PASS",
+      "ledgerValid": "PASS",
+      "provenanceValid": "PASS",
+      "overallStatus": "PROVENANCE VERIFIED"
+    }
+  ],
+  "investigations": [
+    {
+      "id": "INV-2026-0042",
+      "title": "Western Fleet Tactical Leak Investigation",
+      "caseNumber": "CASE-NAVX-2026-0042",
+      "filename": "leaked_strike_plan_sample.pdf",
+      "documentId": "NAV-DOC-2026-0042",
+      "documentName": "Mission_Plan_Bravo.pdf",
+      "uploadedAt": "27 Sep 2026 05:05Z",
+      "investigator": "Lt. Cdr. S. Rao (Cyber Warfare Command)",
+      "priority": "HIGH",
+      "status": "Identified",
+      "attributionStatus": "PROVENANCE VERIFIED",
+      "progress": 100,
+      "candidateCount": 14,
+      "topMatch": {
+        "recipientId": "REC-01",
+        "name": "Cdr. Arjun Mehta",
+        "pno": "04821-K",
+        "unit": "INS Vikramaditya (R33)",
+        "confidenceScore": 99.8,
+        "seedFingerprint": "0x88f21ac0981baacc",
+        "decryptedTimestamp": "27 Sep 2026 04:54Z",
+        "matchedVersion": "v2.1"
+      },
+      "createdAt": "2026-09-27T05:05:00Z",
+      "updatedAt": "2026-09-27T08:15:00Z"
+    },
+    {
+      "id": "INV-2026-0038",
+      "title": "Littoral Hydrographic Chart Data Drift",
+      "caseNumber": "CASE-NAVX-2026-0038",
+      "filename": "intel_notes.pdf",
+      "documentId": "NAV-DOC-2026-0038",
+      "documentName": "Eastern_Littoral_Hydrographic_Intel.pdf",
+      "uploadedAt": "26 Sep 2026 14:15Z",
+      "investigator": "Capt. R. Deshmukh",
+      "priority": "MEDIUM",
+      "status": "In Progress",
+      "attributionStatus": "UNRESOLVED",
+      "progress": 65,
+      "candidateCount": 8,
+      "createdAt": "2026-09-26T14:15:00Z",
+      "updatedAt": "2026-09-27T02:00:00Z"
+    },
+    {
+      "id": "INV-2026-0055",
+      "title": "Submarine Sonar Calibration Sheet Anomaly",
+      "caseNumber": "CASE-NAVX-2026-0055",
+      "filename": "acoustic_profile_snippet.png",
+      "documentId": "NAV-DOC-2026-0055",
+      "documentName": "Submarine_Acoustic_Signature_Profile.pdf",
+      "uploadedAt": "25 Sep 2026 19:40Z",
+      "investigator": "Lt. Cdr. S. Rao",
+      "priority": "CRITICAL",
+      "status": "Under Review",
+      "attributionStatus": "CONTRADICTORY EVIDENCE",
+      "progress": 80,
+      "candidateCount": 4,
+      "createdAt": "2026-09-25T19:40:00Z",
+      "updatedAt": "2026-09-26T18:20:00Z"
+    }
+  ],
+  "investigation_events": [
+    {
+      "id": "IEVT-01",
+      "caseId": "INV-2026-0042",
+      "type": "ARTIFACT_UPLOADED",
+      "description": "Uploaded leaked artifact leaked_mission_plan.jpg",
+      "timestamp": "2026-09-27T05:05:00Z"
+    },
+    {
+      "id": "IEVT-02",
+      "caseId": "INV-2026-0042",
+      "type": "FINGERPRINT_EXTRACTED",
+      "description": "Extracted steganographic seed 0x88f21ac0981baacc (99.8% match)",
+      "timestamp": "2026-09-27T05:07:30Z"
+    },
+    {
+      "id": "IEVT-03",
+      "caseId": "INV-2026-0042",
+      "type": "RECIPIENT_MATCHED",
+      "description": "Attributed artifact to Cdr. Arjun Mehta (04821-K) on INS Vikramaditya",
+      "timestamp": "2026-09-27T05:10:00Z"
+    }
+  ],
+  "alerts": [
+    {
+      "id": "ALT-1A0E7DF7D3D",
+      "severity": "CRITICAL",
+      "title": "CRITICAL: LEDGER INTEGRITY FAILURE",
+      "message": "Merkle root discrepancy detected at Block #4188. Chain tamper simulation active.",
+      "relatedEntity": "ledger",
+      "relatedEntityId": "BLOCK-4188",
+      "status": "ACTIVE",
+      "createdAt": "2026-09-28T11:56:18.621Z"
+    },
+    {
+      "id": "ALT-1A0E7DF6282",
+      "severity": "CRITICAL",
+      "title": "LEAK ATTRIBUTION DETECTED — Operational_Maritime_Brief_Test.pdf",
+      "message": "High confidence attribution (88.5%) to Captain Capt. R. Deshmukh for leaked file intel_notes.pdf. Evidence: Fingerprint + Watermark + Decryption + Provenance + Ledger.",
+      "relatedEntity": "leak_artifact",
+      "relatedEntityId": "ART-2026-002",
+      "status": "ACTIVE",
+      "createdAt": "2026-09-28T11:56:11.778Z"
+    },
+    {
+      "id": "ALT-1A0E7DF0244",
+      "severity": "CRITICAL",
+      "title": "LEAK ATTRIBUTION DETECTED — Mission_Plan_Bravo.pdf",
+      "message": "High confidence attribution (97.4%) to Commander Cdr. Arjun Mehta for leaked file leaked_mission_plan.jpg. Evidence: Fingerprint + Watermark + Decryption + Provenance + Ledger.",
+      "relatedEntity": "leak_artifact",
+      "relatedEntityId": "ART-2026-001",
+      "status": "ACTIVE",
+      "createdAt": "2026-09-28T11:55:47.140Z"
+    },
+    {
+      "id": "ALT-1A0E7C891FE",
+      "severity": "CRITICAL",
+      "title": "CRITICAL: LEDGER INTEGRITY FAILURE",
+      "message": "Merkle root discrepancy detected at Block #4188. Chain tamper simulation active.",
+      "relatedEntity": "ledger",
+      "relatedEntityId": "BLOCK-4188",
+      "status": "ACTIVE",
+      "createdAt": "2026-09-28T11:31:16.606Z"
+    },
+    {
+      "id": "ALT-1A0E7BEA219",
+      "severity": "CRITICAL",
+      "title": "CRITICAL: LEDGER INTEGRITY FAILURE",
+      "message": "Merkle root discrepancy detected at Block #4188. Chain tamper simulation active.",
+      "relatedEntity": "ledger",
+      "relatedEntityId": "BLOCK-4188",
+      "status": "ACTIVE",
+      "createdAt": "2026-09-28T11:20:25.369Z"
+    },
+    {
+      "id": "ALT-2026-001",
+      "severity": "CRITICAL",
+      "title": "Potential Classified Document Leak Detected",
+      "message": "Steganographic watermark match on Mission_Plan_Bravo.pdf (v2.1) discovered on external paste.",
+      "relatedEntity": "document",
+      "relatedEntityId": "NAV-DOC-2026-0042",
+      "status": "ACKNOWLEDGED",
+      "createdAt": "2026-09-27T05:02:00Z",
+      "acknowledgedBy": "Lt. Cdr. S. Rao"
+    },
+    {
+      "id": "ALT-2026-002",
+      "severity": "HIGH",
+      "title": "Repeated Access Denials on EMCON Sector 17A",
+      "message": "Multiple unauthenticated decryption attempts from auxiliary terminal port 443.",
+      "relatedEntity": "recipient",
+      "relatedEntityId": "REC-05",
+      "status": "ACTIVE",
+      "createdAt": "2026-09-27T07:11:00Z"
+    },
+    {
+      "id": "ALT-2026-003",
+      "severity": "MEDIUM",
+      "title": "Air-Gap Optical Diode Reconnection Pending",
+      "message": "INS Visakhapatnam (D66) has 6 pending ledger events awaiting hash-chain merge.",
+      "relatedEntity": "unit",
+      "relatedEntityId": "DISC-01",
+      "status": "ACTIVE",
+      "createdAt": "2026-09-27T06:00:00Z"
+    }
+  ],
+  "alert_rules": [
+    {
+      "id": "RULE-01",
+      "name": "Repeated Document Access Failure Anomaly",
+      "denialThreshold": 3,
+      "groupingKey": "Same Document",
+      "timeWindow": "15 Minutes",
+      "action": "Flag High-Priority Investigation",
+      "isActive": true
+    },
+    {
+      "id": "RULE-02",
+      "name": "Unit-Wide Security Policy Breach Detection",
+      "denialThreshold": 5,
+      "groupingKey": "Same Unit",
+      "timeWindow": "1 Hour",
+      "action": "Lockdown EMCON Sector",
+      "isActive": true
+    },
+    {
+      "id": "RULE-03",
+      "name": "Unauthorized Terminal Quarantine Rule",
+      "denialThreshold": 2,
+      "groupingKey": "Same Terminal/Device",
+      "timeWindow": "1 Hour",
+      "action": "Quarantine Device Token",
+      "isActive": true
+    }
+  ],
+  "notifications": [
+    {
+      "id": "NOTIF-01",
+      "title": "Attribution Resolved",
+      "message": "Case INV-2026-0042 has completed evidence convergence.",
+      "read": false,
+      "timestamp": "2026-09-27T05:10:00Z"
+    },
+    {
+      "id": "NOTIF-02",
+      "title": "Merkle Block #4192 Sealed",
+      "message": "Hash chain integrity verified across 6 nodes.",
+      "read": true,
+      "timestamp": "2026-09-27T04:54:00Z"
+    }
+  ],
+  "email_notifications": [
+    {
+      "id": "EMAIL-1790614302250",
+      "type": "SECURITY_ALERT",
+      "recipientEmail": "naval-ops-security@navy.mil.in",
+      "subject": "SECURITY ALERT — POTENTIAL DOCUMENT LEAK (INV-2026-0042)",
+      "relatedEntity": "investigation",
+      "relatedEntityId": "INV-2026-0042",
+      "status": "SENT",
+      "providerMessageId": "MOCK-GMAIL-MSG-1790614302249-twx1z",
+      "sentAt": "2026-09-28T16:51:42.249Z"
+    },
+    {
+      "id": "EMAIL-1790613444311",
+      "type": "SECURITY_ALERT",
+      "recipientEmail": "cyberwarfare-ops@navy.mil.in",
+      "subject": "SECURITY ALERT — POTENTIAL DOCUMENT LEAK (INV-2026-0042)",
+      "relatedEntity": "investigation",
+      "relatedEntityId": "INV-2026-0042",
+      "status": "SENT",
+      "providerMessageId": "MOCK-GMAIL-MSG-1790613444310-c7ixc",
+      "sentAt": "2026-09-28T16:37:24.311Z"
+    },
+    {
+      "id": "EMAIL-1790595076628",
+      "type": "TEST_VERIFICATION",
+      "recipientEmail": "fleet-duty-officer@navy.mil.in",
+      "subject": "NAV-TRAC X | Verification Test Notification",
+      "relatedEntity": "system",
+      "relatedEntityId": "TEST-001",
+      "status": "SENT",
+      "providerMessageId": "MOCK-GMAIL-MSG-1790595076628-2i4ij",
+      "sentAt": "2026-09-28T11:31:16.628Z"
+    },
+    {
+      "id": "EMAIL-1790595076609",
+      "type": "LEDGER_INTEGRITY_FAILURE",
+      "recipientEmail": "cyberwarfare-ops@navy.mil.in",
+      "subject": "CRITICAL — LEDGER INTEGRITY FAILURE (Block #4188)",
+      "relatedEntity": "ledger_block",
+      "relatedEntityId": "4188",
+      "status": "SENT",
+      "providerMessageId": "MOCK-GMAIL-MSG-1790595076609-lujr5",
+      "sentAt": "2026-09-28T11:31:16.609Z"
+    },
+    {
+      "id": "EMAIL-1790595076575",
+      "type": "AUTHORIZATION_APPROVED",
+      "recipientEmail": "requester-clearance@navy.mil.in",
+      "subject": "ACCESS REQUEST APPROVED — Operational_Maritime_Brief_Test.pdf (REQ-2026-086)",
+      "relatedEntity": "access_request",
+      "relatedEntityId": "REQ-2026-086",
+      "status": "SENT",
+      "providerMessageId": "MOCK-GMAIL-MSG-1790595076575-va51t",
+      "sentAt": "2026-09-28T11:31:16.575Z"
+    },
+    {
+      "id": "EMAIL-1790595076568",
+      "type": "AUTHORIZATION_REQUEST",
+      "recipientEmail": "fleet-approvals@navy.mil.in",
+      "subject": "ACCESS AUTHORIZATION REQUEST — Operational_Maritime_Brief_Test.pdf (REQ-2026-086)",
+      "relatedEntity": "access_request",
+      "relatedEntityId": "REQ-2026-086",
+      "status": "SENT",
+      "providerMessageId": "MOCK-GMAIL-MSG-1790595076568-2np4s",
+      "sentAt": "2026-09-28T11:31:16.568Z"
+    },
+    {
+      "id": "EMAIL-1790594425391",
+      "type": "TEST_VERIFICATION",
+      "recipientEmail": "fleet-duty-officer@navy.mil.in",
+      "subject": "NAV-TRAC X | Verification Test Notification",
+      "relatedEntity": "system",
+      "relatedEntityId": "TEST-001",
+      "status": "SENT",
+      "providerMessageId": "MOCK-GMAIL-MSG-1790594425390-9cxoy",
+      "sentAt": "2026-09-28T11:20:25.391Z"
+    },
+    {
+      "id": "EMAIL-1790594425372",
+      "type": "LEDGER_INTEGRITY_FAILURE",
+      "recipientEmail": "cyberwarfare-ops@navy.mil.in",
+      "subject": "CRITICAL — LEDGER INTEGRITY FAILURE (Block #4188)",
+      "relatedEntity": "ledger_block",
+      "relatedEntityId": "4188",
+      "status": "SENT",
+      "providerMessageId": "MOCK-GMAIL-MSG-1790594425372-6xssu",
+      "sentAt": "2026-09-28T11:20:25.372Z"
+    },
+    {
+      "id": "EMAIL-1790594425340",
+      "type": "AUTHORIZATION_APPROVED",
+      "recipientEmail": "requester-clearance@navy.mil.in",
+      "subject": "ACCESS REQUEST APPROVED — Operational_Maritime_Brief_Test.pdf (REQ-2026-085)",
+      "relatedEntity": "access_request",
+      "relatedEntityId": "REQ-2026-085",
+      "status": "SENT",
+      "providerMessageId": "MOCK-GMAIL-MSG-1790594425340-2x1y2",
+      "sentAt": "2026-09-28T11:20:25.340Z"
+    },
+    {
+      "id": "EMAIL-1790594425333",
+      "type": "AUTHORIZATION_REQUEST",
+      "recipientEmail": "fleet-approvals@navy.mil.in",
+      "subject": "ACCESS AUTHORIZATION REQUEST — Operational_Maritime_Brief_Test.pdf (REQ-2026-085)",
+      "relatedEntity": "access_request",
+      "relatedEntityId": "REQ-2026-085",
+      "status": "SENT",
+      "providerMessageId": "MOCK-GMAIL-MSG-1790594425333-689v2",
+      "sentAt": "2026-09-28T11:20:25.333Z"
+    },
+    {
+      "id": "EMAIL-INIT-01",
+      "type": "SECURITY_ALERT",
+      "recipientEmail": "cyberwarfare-ops@navy.mil.in",
+      "subject": "NAV-TRAC X | SECURITY ALERT: POTENTIAL DOCUMENT LEAK",
+      "relatedEntity": "document",
+      "relatedEntityId": "NAV-DOC-2026-0042",
+      "status": "SENT",
+      "providerMessageId": "GMAIL-MOCK-88912",
+      "sentAt": "2026-09-27T05:03:00Z"
+    },
+    {
+      "id": "EMAIL-INIT-02",
+      "type": "AUTHORIZATION_REQUEST",
+      "recipientEmail": "fleet-approvals@navy.mil.in",
+      "subject": "ACCESS AUTHORIZATION REQUEST — NAV-DOC-2026-0042",
+      "relatedEntity": "access_request",
+      "relatedEntityId": "REQ-2026-081",
+      "status": "SENT",
+      "providerMessageId": "GMAIL-MOCK-88910",
+      "sentAt": "2026-09-27T06:16:00Z"
+    }
+  ],
+  "notification_queue": [],
+  "emcon_state": {
+    "currentPosture": "EMCON Charlie (Normal Operations)",
+    "postureColor": "#10b981",
+    "activeVesselsCount": 42,
+    "disconnectedVesselsCount": 3,
+    "radioSilenceSectors": [
+      "Sector 17A (North Arabian Sea)",
+      "Sector Bravo (Goa Deep)"
+    ],
+    "frequencyBands": [
+      {
+        "band": "HF / VHF Tactical Voice",
+        "status": "ACTIVE (Tactical Guard)",
+        "restricted": false
+      },
+      {
+        "band": "SHF Military SATCOM",
+        "status": "ACTIVE (Full Bandwidth)",
+        "restricted": false
+      },
+      {
+        "band": "Optical Diode Laser Link",
+        "status": "ACTIVE (Directional)",
+        "restricted": false
+      }
+    ]
+  },
+  "offline_packages": [
+    {
+      "id": "PKG-D66-01",
+      "unitId": "DISC-01",
+      "unitName": "INS Visakhapatnam (D66)",
+      "eventsCount": 6,
+      "checksum": "SHA256: 99aa001923fa11bc8822001923bc9910aa112349",
+      "createdAt": "2026-09-27T06:00:00Z",
+      "status": "QUEUED"
+    }
+  ],
+  "disconnected_units": [
+    {
+      "id": "DISC-01",
+      "name": "INS Visakhapatnam (D66) - Sector 17A",
+      "callsign": "D66-OFFLINE",
+      "offlineSince": "27 Sep 2026 06:00Z (5h 15m)",
+      "pendingEventCount": 6,
+      "emconState": "EMCON Alpha (Full Silence)",
+      "sector": "North Arabian Sea Patrol Box"
+    },
+    {
+      "id": "DISC-02",
+      "name": "INS Vikramaditya (R33) - Battle Group",
+      "callsign": "R33-OFFLINE",
+      "offlineSince": "27 Sep 2026 07:30Z (3h 45m)",
+      "pendingEventCount": 11,
+      "emconState": "EMCON Bravo (Restricted SATCOM)",
+      "sector": "Deep Sea Sector Bravo"
+    },
+    {
+      "id": "DISC-03",
+      "name": "UAV-Alpha-03 Surveillance Flight",
+      "callsign": "DRONE-03-OFFLINE",
+      "offlineSince": "27 Sep 2026 09:12Z (2h 03m)",
+      "pendingEventCount": 3,
+      "emconState": "EMCON Alpha (Full Silence)",
+      "sector": "Goa Outer Perimeter"
+    }
+  ],
+  "access_policies": [
+    {
+      "id": "POL-01",
+      "name": "Command Operations Level-4 Top Secret Policy",
+      "description": "Enforces dual-custody cryptographic keying and 24-hour ephemeral session decay for tactical warfare documents.",
+      "scopeType": "ROLE",
+      "appliesTo": "Commanding Officers (CO/XO) • Western Fleet Battle Group",
+      "classificationScope": "TOP SECRET (CODEWORD)",
+      "allowedAccessTypes": [
+        "View",
+        "Download"
+      ],
+      "expiryRule": "24 Hours from Decryption",
+      "activeRecipientsCount": 14,
+      "status": "Active",
+      "createdAt": "15 Sep 2026",
+      "updatedAt": "26 Sep 2026",
+      "requiresDualCustody": true
+    },
+    {
+      "id": "POL-02",
+      "name": "Hydrographic & Littoral Intelligence Standard",
+      "description": "Mandatory steganographic watermarking on all bathymetric charts and acoustic sensor profiles.",
+      "scopeType": "UNIT",
+      "appliesTo": "Eastern Fleet Hydrographic Office & Submarine Flotilla",
+      "classificationScope": "SECRET",
+      "allowedAccessTypes": [
+        "View",
+        "Download",
+        "Print"
+      ],
+      "expiryRule": "7 Days",
+      "activeRecipientsCount": 28,
+      "status": "Active",
+      "createdAt": "10 Sep 2026",
+      "updatedAt": "25 Sep 2026",
+      "requiresDualCustody": false
+    },
+    {
+      "id": "POL-03",
+      "name": "Naval Aviation Sortie Schedule Clearance",
+      "description": "Role-based authorization for carrier air wing pilots and tactical coordinators.",
+      "scopeType": "ROLE",
+      "appliesTo": "Carrier Strike Group Air Wing (INS Vikramaditya / Vikrant)",
+      "classificationScope": "SECRET",
+      "allowedAccessTypes": [
+        "View",
+        "Print"
+      ],
+      "expiryRule": "12 Hours from Decryption",
+      "activeRecipientsCount": 36,
+      "status": "Active",
+      "createdAt": "01 Sep 2026",
+      "updatedAt": "20 Sep 2026",
+      "requiresDualCustody": false
+    }
+  ],
+  "access_requests": [
+    {
+      "id": "REQ-2026-086",
+      "requesterName": "Lt. Priya Singh",
+      "requesterRank": "Lieutenant",
+      "requesterPno": "06244-S",
+      "requesterUnit": "INS Visakhapatnam (D66)",
+      "documentId": "NAV-DOC-2026-0050",
+      "documentName": "Operational_Maritime_Brief_Test.pdf",
+      "documentClassification": "SECRET",
+      "reasonGiven": "Combat Mission Briefing Clearance",
+      "requestedOn": "2026-09-28T11:31:16.566Z",
+      "status": "Approved",
+      "requiredApproverRole": "Command Authority",
+      "officerName": "Lt. Priya Singh",
+      "rank": "Lieutenant",
+      "unit": "INS Visakhapatnam (D66)",
+      "pno": "06244-S",
+      "reason": "Combat Mission Briefing Clearance",
+      "decidedBy": "Capt. R. Deshmukh",
+      "decidedAt": "2026-09-28T11:31:16.573Z",
+      "decisionNote": "Approved for 24-hour tactical window"
+    },
+    {
+      "id": "REQ-2026-085",
+      "requesterName": "Lt. Priya Singh",
+      "requesterRank": "Lieutenant",
+      "requesterPno": "06244-S",
+      "requesterUnit": "INS Visakhapatnam (D66)",
+      "documentId": "NAV-DOC-2026-0049",
+      "documentName": "Operational_Maritime_Brief_Test.pdf",
+      "documentClassification": "SECRET",
+      "reasonGiven": "Combat Mission Briefing Clearance",
+      "requestedOn": "2026-09-28T11:20:25.331Z",
+      "status": "Approved",
+      "requiredApproverRole": "Command Authority",
+      "officerName": "Lt. Priya Singh",
+      "rank": "Lieutenant",
+      "unit": "INS Visakhapatnam (D66)",
+      "pno": "06244-S",
+      "reason": "Combat Mission Briefing Clearance",
+      "decidedBy": "Capt. R. Deshmukh",
+      "decidedAt": "2026-09-28T11:20:25.338Z",
+      "decisionNote": "Approved for 24-hour tactical window"
+    },
+    {
+      "id": "REQ-2026-081",
+      "requesterName": "Lt. Cdr. Sunita Rao",
+      "requesterRank": "Lt. Commander",
+      "requesterPno": "05190-M",
+      "requesterUnit": "INS Vikramaditya (R33)",
+      "documentId": "NAV-DOC-2026-0042",
+      "documentName": "Mission_Plan_Bravo.pdf",
+      "documentClassification": "TOP SECRET (CODEWORD)",
+      "reasonGiven": "Required for pre-flight combat air patrol briefing and strike coordination.",
+      "requestedOn": "27 Sep 2026 06:15Z",
+      "status": "Pending",
+      "requiredApproverRole": "Western Fleet Commander (Ops)",
+      "escalatedTo": "Flag Officer Commanding Western Fleet"
+    },
+    {
+      "id": "REQ-2026-080",
+      "requesterName": "Cdr. Devendra Malik",
+      "requesterRank": "Commander",
+      "requesterPno": "04118-W",
+      "requesterUnit": "INS Mormugao (D67)",
+      "documentId": "NAV-DOC-2026-0055",
+      "documentName": "Submarine_Acoustic_Signature_Profile.pdf",
+      "documentClassification": "TOP SECRET",
+      "reasonGiven": "Acoustic calibration check for sonar room operators during sea transit.",
+      "requestedOn": "27 Sep 2026 05:40Z",
+      "status": "Pending",
+      "requiredApproverRole": "Directorate of Naval Operations",
+      "escalatedTo": "Commodore (Submarine Warfare)"
+    },
+    {
+      "id": "REQ-2026-078",
+      "requesterName": "Lt. Amit Saxena",
+      "requesterRank": "Lieutenant",
+      "requesterPno": "06812-B",
+      "requesterUnit": "Western Fleet HQ",
+      "documentId": "NAV-DOC-2026-0038",
+      "documentName": "Eastern_Littoral_Hydrographic_Intel.pdf",
+      "documentClassification": "SECRET",
+      "reasonGiven": "Archival comparison for littoral route planning.",
+      "requestedOn": "26 Sep 2026 14:20Z",
+      "status": "Approved",
+      "requiredApproverRole": "Fleet Hydrographer",
+      "decidedBy": "Capt. R. Deshmukh",
+      "decidedAt": "26 Sep 2026 15:00Z",
+      "decisionNote": "Approved for 48 hours under Policy POL-02"
+    }
+  ],
+  "access_denied_logs": [
+    {
+      "id": "DENY-901",
+      "timeZ": "07:11",
+      "timeLocal": "12:41 IST",
+      "requester": "Auxiliary Terminal Node 04",
+      "rank": "Unauthenticated Terminal",
+      "unit": "INS Visakhapatnam (D66)",
+      "deviceId": "TERM-D66-AUX-04",
+      "documentId": "NAV-DOC-2026-0042",
+      "documentName": "Mission_Plan_Bravo.pdf",
+      "reasonForDenial": "EMCON Restriction",
+      "alertFired": true,
+      "ipAddress": "10.14.88.24",
+      "terminalNode": "Bridge Auxiliary Port 443"
+    },
+    {
+      "id": "DENY-900",
+      "timeZ": "06:42",
+      "timeLocal": "12:12 IST",
+      "requester": "UAV Ground Link",
+      "rank": "Automated Sensor",
+      "unit": "UAV Squadron 03",
+      "deviceId": "DRONE-LINK-03",
+      "documentId": "NAV-DOC-2026-0029",
+      "documentName": "Tactical_Satcom_Frequency_Allocation.docx",
+      "reasonForDenial": "Not Authorized",
+      "alertFired": true,
+      "ipAddress": "192.168.100.12",
+      "terminalNode": "Telemetry Relay Node"
+    },
+    {
+      "id": "DENY-899",
+      "timeZ": "04:15",
+      "timeLocal": "09:45 IST",
+      "requester": "Lt. Cdr. Priya Nair",
+      "rank": "Lt. Commander",
+      "unit": "Western Fleet HQ",
+      "deviceId": "NAV-HQ-WNC-09",
+      "documentId": "NAV-DOC-2026-0055",
+      "documentName": "Submarine_Acoustic_Signature_Profile.pdf",
+      "reasonForDenial": "Expired Certificate",
+      "alertFired": false,
+      "ipAddress": "10.12.0.88",
+      "terminalNode": "WNC Command Console 02"
+    }
+  ],
+  "activity_logs": [
+    {
+      "id": "ACT-1790614375607",
+      "timestamp": "22:22:55Z",
+      "type": "ARTIFACT_UPLOADED",
+      "action": "ARTIFACT UPLOADED",
+      "actor": "Forensic Analyst",
+      "target": "artifact: ART-1A0E8EF0CB7",
+      "status": "COMPLETED",
+      "severity": "INFO",
+      "node": "NAVAL-HQ-DELHI"
+    },
+    {
+      "id": "ACT-1790614300621",
+      "timestamp": "22:21:40Z",
+      "type": "ATTRIBUTION_CONFIRMED",
+      "action": "ATTRIBUTION CONFIRMED",
+      "actor": "Cdr. Arjun Saxena",
+      "target": "artifact: ART-2026-001",
+      "status": "COMPLETED",
+      "severity": "INFO",
+      "node": "NAVAL-HQ-DELHI"
+    },
+    {
+      "id": "ACT-1790612771300",
+      "timestamp": "21:56:11Z",
+      "type": "ARTIFACT_UPLOADED",
+      "action": "ARTIFACT UPLOADED",
+      "actor": "Forensic Analyst",
+      "target": "artifact: ART-1A0E8D691E4",
+      "status": "COMPLETED",
+      "severity": "INFO",
+      "node": "NAVAL-HQ-DELHI"
+    },
+    {
+      "id": "ACT-1790612763308",
+      "timestamp": "21:56:03Z",
+      "type": "ARTIFACT_UPLOADED",
+      "action": "ARTIFACT UPLOADED",
+      "actor": "Forensic Analyst",
+      "target": "artifact: ART-1A0E8D672AA",
+      "status": "COMPLETED",
+      "severity": "INFO",
+      "node": "NAVAL-HQ-DELHI"
+    },
+    {
+      "id": "ACT-1790597041665",
+      "timestamp": "17:34:01Z",
+      "type": "ARTIFACT_UPLOADED",
+      "action": "ARTIFACT UPLOADED",
+      "actor": "Forensic Analyst",
+      "target": "artifact: ART-1A0E7E68E01",
+      "status": "COMPLETED",
+      "severity": "INFO",
+      "node": "NAVAL-HQ-DELHI"
+    },
+    {
+      "id": "ACT-1790597041617",
+      "timestamp": "17:34:01Z",
+      "type": "ATTRIBUTION_CONFIRMED",
+      "action": "ATTRIBUTION CONFIRMED",
+      "actor": "Cdr. Arjun Saxena (Lead Analyst)",
+      "target": "artifact: ART-2026-001",
+      "status": "COMPLETED",
+      "severity": "INFO",
+      "node": "NAVAL-HQ-DELHI"
+    },
+    {
+      "id": "ACT-1790595076591",
+      "timestamp": "17:01:16Z",
+      "type": "DOCUMENT_DECRYPTED",
+      "action": "DOCUMENT DECRYPTED",
+      "actor": "Commander Cdr. Arjun Mehta (04821-K)",
+      "target": "document: NAV-DOC-2026-0050",
+      "status": "COMPLETED",
+      "severity": "INFO",
+      "node": "NAVAL-HQ-DELHI"
+    },
+    {
+      "id": "ACT-1790595076583",
+      "timestamp": "17:01:16Z",
+      "type": "DOCUMENT_DISTRIBUTED",
+      "action": "DOCUMENT DISTRIBUTED",
+      "actor": "Lt. Cdr. S. Rao",
+      "target": "distribution: DST-1A0E7C891E5-2026",
+      "status": "COMPLETED",
+      "severity": "INFO",
+      "node": "NAVAL-HQ-DELHI"
+    },
+    {
+      "id": "ACT-1790595076573",
+      "timestamp": "17:01:16Z",
+      "type": "ACCESS_APPROVED",
+      "action": "ACCESS APPROVED",
+      "actor": "Capt. R. Deshmukh",
+      "target": "access_request: REQ-2026-086",
+      "status": "COMPLETED",
+      "severity": "INFO",
+      "node": "NAVAL-HQ-DELHI"
+    },
+    {
+      "id": "ACT-1790595076566",
+      "timestamp": "17:01:16Z",
+      "type": "ACCESS_REQUESTED",
+      "action": "ACCESS REQUESTED",
+      "actor": "Lt. Priya Singh",
+      "target": "access_request: REQ-2026-086",
+      "status": "COMPLETED",
+      "severity": "INFO",
+      "node": "NAVAL-HQ-DELHI"
+    },
+    {
+      "id": "ACT-1790595076557",
+      "timestamp": "17:01:16Z",
+      "type": "DOCUMENT_CREATED",
+      "action": "DOCUMENT CREATED",
+      "actor": "Lt. Cdr. S. Rao",
+      "target": "document: NAV-DOC-2026-0050",
+      "status": "COMPLETED",
+      "severity": "INFO",
+      "node": "NAVAL-HQ-DELHI"
+    },
+    {
+      "id": "ACT-1790594425352",
+      "timestamp": "16:50:25Z",
+      "type": "DOCUMENT_DECRYPTED",
+      "action": "DOCUMENT DECRYPTED",
+      "actor": "Commander Cdr. Arjun Mehta (04821-K)",
+      "target": "document: NAV-DOC-2026-0049",
+      "status": "COMPLETED",
+      "severity": "INFO",
+      "node": "NAVAL-HQ-DELHI"
+    },
+    {
+      "id": "ACT-1790594425346",
+      "timestamp": "16:50:25Z",
+      "type": "DOCUMENT_DISTRIBUTED",
+      "action": "DOCUMENT DISTRIBUTED",
+      "actor": "Lt. Cdr. S. Rao",
+      "target": "distribution: DST-1A0E7BEA201-2026",
+      "status": "COMPLETED",
+      "severity": "INFO",
+      "node": "NAVAL-HQ-DELHI"
+    },
+    {
+      "id": "ACT-1790594425338",
+      "timestamp": "16:50:25Z",
+      "type": "ACCESS_APPROVED",
+      "action": "ACCESS APPROVED",
+      "actor": "Capt. R. Deshmukh",
+      "target": "access_request: REQ-2026-085",
+      "status": "COMPLETED",
+      "severity": "INFO",
+      "node": "NAVAL-HQ-DELHI"
+    },
+    {
+      "id": "ACT-1790594425331",
+      "timestamp": "16:50:25Z",
+      "type": "ACCESS_REQUESTED",
+      "action": "ACCESS REQUESTED",
+      "actor": "Lt. Priya Singh",
+      "target": "access_request: REQ-2026-085",
+      "status": "COMPLETED",
+      "severity": "INFO",
+      "node": "NAVAL-HQ-DELHI"
+    },
+    {
+      "id": "ACT-1790594425198",
+      "timestamp": "16:50:25Z",
+      "type": "DOCUMENT_CREATED",
+      "action": "DOCUMENT CREATED",
+      "actor": "Lt. Cdr. S. Rao",
+      "target": "document: NAV-DOC-2026-0049",
+      "status": "COMPLETED",
+      "severity": "INFO",
+      "node": "NAVAL-HQ-DELHI"
+    },
+    {
+      "id": "ACT-9901",
+      "timestamp": "27 Sep 2026 07:11Z",
+      "type": "SECURITY_ALERT",
+      "action": "Access Denied (EMCON Restriction)",
+      "actor": "Auxiliary Terminal Node 04",
+      "target": "Mission_Plan_Bravo.pdf",
+      "status": "BLOCKED",
+      "severity": "HIGH",
+      "node": "INS Visakhapatnam (D66)"
+    },
+    {
+      "id": "ACT-9900",
+      "timestamp": "27 Sep 2026 04:54Z",
+      "type": "DECRYPTION",
+      "action": "Cryptographic Document Decryption",
+      "actor": "Cdr. Arjun Mehta (04821-K)",
+      "target": "Mission_Plan_Bravo.pdf (v2.1)",
+      "status": "VERIFIED",
+      "severity": "INFO",
+      "node": "HW-HSM-9021"
+    }
+  ],
+  "audit_events": [
+    {
+      "id": "AUD-1790614375607-cixh",
+      "timestamp": "2026-09-28T16:52:55.607Z",
+      "type": "ARTIFACT_UPLOADED",
+      "actor": "Forensic Analyst",
+      "entityType": "artifact",
+      "entityId": "ART-1A0E8EF0CB7",
+      "metadata": {
+        "filename": "Screenshot 2026-09-28 153440.png",
+        "size": "0.2 MB"
+      }
+    },
+    {
+      "id": "AUD-1790614300621-bg0t",
+      "timestamp": "2026-09-28T16:51:40.621Z",
+      "type": "ATTRIBUTION_CONFIRMED",
+      "actor": "Cdr. Arjun Saxena",
+      "entityType": "artifact",
+      "entityId": "ART-2026-001",
+      "metadata": {
+        "status": "CONFIRMED",
+        "note": "Validated match"
+      }
+    },
+    {
+      "id": "AUD-1790612771300-niwg",
+      "timestamp": "2026-09-28T16:26:11.300Z",
+      "type": "ARTIFACT_UPLOADED",
+      "actor": "Forensic Analyst",
+      "entityType": "artifact",
+      "entityId": "ART-1A0E8D691E4",
+      "metadata": {
+        "filename": "Screenshot 2026-09-28 171505.png",
+        "size": "0.1 MB"
+      }
+    },
+    {
+      "id": "AUD-1790612763308-ll62",
+      "timestamp": "2026-09-28T16:26:03.308Z",
+      "type": "ARTIFACT_UPLOADED",
+      "actor": "Forensic Analyst",
+      "entityType": "artifact",
+      "entityId": "ART-1A0E8D672AA",
+      "metadata": {
+        "filename": "Screenshot 2026-09-28 153440.png",
+        "size": "0.2 MB"
+      }
+    },
+    {
+      "id": "AUD-1790597041665-h4lo",
+      "timestamp": "2026-09-28T12:04:01.665Z",
+      "type": "ARTIFACT_UPLOADED",
+      "actor": "Forensic Analyst",
+      "entityType": "artifact",
+      "entityId": "ART-1A0E7E68E01",
+      "metadata": {
+        "filename": "classified_screen_capture_alpha.png",
+        "size": "3.4 MB"
+      }
+    },
+    {
+      "id": "AUD-1790597041617-6vj7",
+      "timestamp": "2026-09-28T12:04:01.617Z",
+      "type": "ATTRIBUTION_CONFIRMED",
+      "actor": "Cdr. Arjun Saxena (Lead Analyst)",
+      "entityType": "artifact",
+      "entityId": "ART-2026-001",
+      "metadata": {
+        "status": "CONFIRMED",
+        "note": "Watermark and Merkle ledger block #4192 match confirmed under forensic oath."
+      }
+    },
+    {
+      "id": "AUD-1790595076591-jxco",
+      "timestamp": "2026-09-28T11:31:16.591Z",
+      "type": "DOCUMENT_DECRYPTED",
+      "actor": "Commander Cdr. Arjun Mehta (04821-K)",
+      "entityType": "document",
+      "entityId": "NAV-DOC-2026-0050",
+      "metadata": {
+        "eventId": "EVT-38356",
+        "deviceId": "HW-HSM-TEST-01"
+      }
+    },
+    {
+      "id": "AUD-1790595076582-3box",
+      "timestamp": "2026-09-28T11:31:16.583Z",
+      "type": "DOCUMENT_DISTRIBUTED",
+      "actor": "Lt. Cdr. S. Rao",
+      "entityType": "distribution",
+      "entityId": "DST-1A0E7C891E5-2026",
+      "metadata": {
+        "documentId": "NAV-DOC-2026-0050",
+        "recipientCount": 1
+      }
+    },
+    {
+      "id": "AUD-1790595076573-pkx7",
+      "timestamp": "2026-09-28T11:31:16.573Z",
+      "type": "ACCESS_APPROVED",
+      "actor": "Capt. R. Deshmukh",
+      "entityType": "access_request",
+      "entityId": "REQ-2026-086",
+      "metadata": {
+        "note": "Approved for 24-hour tactical window"
+      }
+    },
+    {
+      "id": "AUD-1790595076566-pufj",
+      "timestamp": "2026-09-28T11:31:16.566Z",
+      "type": "ACCESS_REQUESTED",
+      "actor": "Lt. Priya Singh",
+      "entityType": "access_request",
+      "entityId": "REQ-2026-086",
+      "metadata": {
+        "documentId": "NAV-DOC-2026-0050",
+        "reason": "Combat Mission Briefing Clearance"
+      }
+    },
+    {
+      "id": "AUD-1790595076557-vb2h",
+      "timestamp": "2026-09-28T11:31:16.557Z",
+      "type": "DOCUMENT_CREATED",
+      "actor": "Lt. Cdr. S. Rao",
+      "entityType": "document",
+      "entityId": "NAV-DOC-2026-0050",
+      "metadata": {
+        "name": "Operational_Maritime_Brief_Test.pdf",
+        "classification": "TOP SECRET (CODEWORD)"
+      }
+    },
+    {
+      "id": "AUD-1790594425352-6z0s",
+      "timestamp": "2026-09-28T11:20:25.352Z",
+      "type": "DOCUMENT_DECRYPTED",
+      "actor": "Commander Cdr. Arjun Mehta (04821-K)",
+      "entityType": "document",
+      "entityId": "NAV-DOC-2026-0049",
+      "metadata": {
+        "eventId": "EVT-97915",
+        "deviceId": "HW-HSM-TEST-01"
+      }
+    },
+    {
+      "id": "AUD-1790594425346-emob",
+      "timestamp": "2026-09-28T11:20:25.346Z",
+      "type": "DOCUMENT_DISTRIBUTED",
+      "actor": "Lt. Cdr. S. Rao",
+      "entityType": "distribution",
+      "entityId": "DST-1A0E7BEA201-2026",
+      "metadata": {
+        "documentId": "NAV-DOC-2026-0049",
+        "recipientCount": 1
+      }
+    },
+    {
+      "id": "AUD-1790594425338-qlvl",
+      "timestamp": "2026-09-28T11:20:25.338Z",
+      "type": "ACCESS_APPROVED",
+      "actor": "Capt. R. Deshmukh",
+      "entityType": "access_request",
+      "entityId": "REQ-2026-085",
+      "metadata": {
+        "note": "Approved for 24-hour tactical window"
+      }
+    },
+    {
+      "id": "AUD-1790594425331-4r9y",
+      "timestamp": "2026-09-28T11:20:25.331Z",
+      "type": "ACCESS_REQUESTED",
+      "actor": "Lt. Priya Singh",
+      "entityType": "access_request",
+      "entityId": "REQ-2026-085",
+      "metadata": {
+        "documentId": "NAV-DOC-2026-0049",
+        "reason": "Combat Mission Briefing Clearance"
+      }
+    },
+    {
+      "id": "AUD-1790594425198-6zca",
+      "timestamp": "2026-09-28T11:20:25.198Z",
+      "type": "DOCUMENT_CREATED",
+      "actor": "Lt. Cdr. S. Rao",
+      "entityType": "document",
+      "entityId": "NAV-DOC-2026-0049",
+      "metadata": {
+        "name": "Operational_Maritime_Brief_Test.pdf",
+        "classification": "TOP SECRET (CODEWORD)"
+      }
+    },
+    {
+      "id": "AUD-001",
+      "type": "DOCUMENT_DISTRIBUTED",
+      "actor": "Lt. Cdr. S. Rao",
+      "entityType": "document",
+      "entityId": "NAV-DOC-2026-0042",
+      "timestamp": "2026-09-25T09:30:00Z",
+      "metadata": {
+        "distributionId": "DST-8F921-2026",
+        "recipients": [
+          "REC-01",
+          "REC-02"
+        ]
+      }
+    },
+    {
+      "id": "AUD-002",
+      "type": "DECRYPTION_LOGGED",
+      "actor": "Cdr. Arjun Mehta",
+      "entityType": "decryption_event",
+      "entityId": "EVT-88421",
+      "timestamp": "2026-09-27T04:54:12Z",
+      "metadata": {
+        "deviceId": "HW-HSM-9021",
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "AUD-003",
+      "type": "LEAK_INTERCEPTED",
+      "actor": "Forensic Monitoring Sensor",
+      "entityType": "investigation",
+      "entityId": "INV-2026-0042",
+      "timestamp": "2026-09-27T05:02:00Z",
+      "metadata": {
+        "source": "External Paste",
+        "confidence": 99.8
+      }
+    }
+  ],
+  "oauth_accounts": [],
+  "leak_monitoring": {
+    "NAV-DOC-2026-0042": {
+      "status": "LEAK_DETECTED",
+      "leakCount": 1,
+      "lastScannedAt": "27 Sep 2026 05:10Z",
+      "activeInvestigationCaseId": "INV-2026-0042",
+      "matches": [
+        {
+          "source": "External Tactical Forum / Dark Web Paste",
+          "discoveredAt": "27 Sep 2026 05:02Z",
+          "confidenceScore": 99.8,
+          "extractedRecipientPseudonym": "Cdr. Arjun Mehta (04821-K)",
+          "matchedVersion": "v2.1",
+          "tamperEvidence": "Photograph of printed tactical sheet with steganographic dot matrix"
+        }
+      ]
+    }
+  }
+}

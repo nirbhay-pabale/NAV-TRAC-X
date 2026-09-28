@@ -1,0 +1,54 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: navtrac_postgres
+    environment:
+      POSTGRES_USER: navtrac
+      POSTGRES_PASSWORD: navtrac_secure_password
+      POSTGRES_DB: navtrac_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U navtrac -d navtrac_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: navtrac_forensic_engine
+    environment:
+      DATABASE_URL: postgresql://navtrac:navtrac_secure_password@postgres:5432/navtrac_db
+      GOOGLE_API_KEY: ${GOOGLE_API_KEY:-}
+      LLM_PROVIDER: ${LLM_PROVIDER:-gemini}
+      LLM_MODEL: ${LLM_MODEL:-gemini-2.5-flash}
+      AIR_GAPPED: ${AIR_GAPPED:-false}
+    ports:
+      - "8000:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - ./backend/data:/app/backend/data
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: navtrac_frontend
+    ports:
+      - "5173:5173"
+      - "3001:3001"
+    depends_on:
+      - backend
+    environment:
+      - VITE_API_URL=http://backend:8000
+
+volumes:
+  pgdata:
